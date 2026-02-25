@@ -4,6 +4,19 @@ In a world where AI makes it trivial to spin up functional DoorDash clones, does
 
 **Short answer: No.** Across ~80 LLM decisions spanning three experiments, the DoorDash brand provided zero measurable selection premium. Even when DoorDash was objectively one of the best options, the LLM treated it as just another vendor.
 
+## Summary
+
+| | DoorDash mediocre | DoorDash competitive | DoorDash tied with clones |
+| :--- | :---: | :---: | :---: |
+| **Scenario** | Mid-pack on cost/speed | Top 2-5 by utility | Identical metrics to 3-5 clones |
+| **LLM picked DoorDash** | 0% (0/20) | 0% (0/6) | 0% (0/8) |
+| **Equation picked DoorDash** | 5% | 0% | 0% |
+| **Brand premium** | None | None | None |
+| | | | |
+| **What the LLM actually did** | Picked cheapest+fastest | Picked marginally better clone | Picked a random tied clone |
+
+> **Bottom line:** An LLM choosing between DoorDash and 99 functional clones treats brand as a zero-weight variable. The moat, if any, has to be in data or reliability -- not the name.
+
 ## Results
 
 ### Experiment 1: Clone market, DoorDash mediocre (GPT-5.2, n=20)
