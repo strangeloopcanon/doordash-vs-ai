@@ -1,0 +1,36 @@
+{
+  "chosen_vendor_id": "ep020_vendor_032",
+  "chosen_items": [
+    {
+      "item": "pepperoni_pizza",
+      "quantity": 1,
+      "unit_price_usd": 15.26
+    },
+    {
+      "item": "spaghetti_bolognese",
+      "quantity": 1,
+      "unit_price_usd": 13.47
+    },
+    {
+      "item": "fettuccine_alfredo",
+      "quantity": 1,
+      "unit_price_usd": 13.64
+    }
+  ],
+  "reasoning": "ep020_vendor_032 is the best rating-priority reliability choice: it is tied for the second-highest rating (4.85) but has much stronger reliability signals than the top-rated cart, while also staying very fast (25 min) and reasonably priced (48.75 total).",
+  "factors": {
+    "priority_hint": "rating",
+    "selected_vendor_metrics": {
+      "required_total_usd": 48.75,
+      "eta_min": 25,
+      "reliability_score": 83.78,
+      "cancel_rate_pct": 6.41,
+      "on_time_rate_pct": 88.79,
+      "rating": 4.85
+    },
+    "comparison_notes": {
+      "vs_highest_rating_option": "ep020_vendor_049 has the top rating (4.87) but weaker reliability (77.41), higher cancel rate (8.93), and slower on-time performance (84.15).",
+      "vs_highest_reliability_options": "Top reliability carts (e.g., ep020_vendor_005 at 87.50 and ep020_vendor_095 at 85.89) have notably lower ratings (4.35 and 4.58), so they are less aligned with rating-first priority."
+    }
+  }
+}

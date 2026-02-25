@@ -1,0 +1,1 @@
+{"chosen_vendor_id": "ep009_vendor_091", "chosen_items": ["garlic_naan", "quesadilla"], "reasoning": "Fast priority: ep009_vendor_091 has lowest ETA (24 min) among all vendors. Break tie with cost ($25.01) and reliability (75.68). Chosen for speed.", "factors": ["eta_min", "total_cost", "reliability_score"]}

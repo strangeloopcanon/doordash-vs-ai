@@ -1,0 +1,1 @@
+{"chosen_vendor_id": "ep014_vendor_001", "chosen_items": ["cheeseburger", "burrito"], "reasoning": "Fast priority: ep014_vendor_001 has lowest ETA (22 min) among all offers. Break ties with cost ($34.55) and reliability (78.65).", "factors": ["eta_min", "required_total_usd", "reliability_score"]}

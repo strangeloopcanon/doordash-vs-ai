@@ -1,0 +1,15 @@
+{
+  "chosen_vendor_id": "ep013_vendor_027",
+  "chosen_items": {
+    "margherita_pizza": 2,
+    "tacos": 1
+  },
+  "reasoning": "This vendor gives the best balanced tradeoff: lowest total cost, high rating, reasonable ETA, and low delivery/service fees without a major weakness in any priority area.",
+  "factors": {
+    "required_total_usd": 40.17,
+    "eta_min": 34,
+    "rating": 4.72,
+    "delivery_fee_usd": 2.02,
+    "service_fee_pct": 4.66
+  }
+}

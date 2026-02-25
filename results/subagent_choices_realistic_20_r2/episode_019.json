@@ -1,0 +1,19 @@
+{
+  "chosen_vendor_id": "ep019_vendor_063",
+  "chosen_items": [
+    "cheeseburger",
+    "burrito",
+    "chicken_sandwich"
+  ],
+  "reasoning": "With priority_hint set to balanced, ep019_vendor_063 gives the strongest overall tradeoff: low total cost, near-fastest ETA, and solid reliability/quality signals. It is only modestly more expensive than the cheapest option while delivering materially faster ETA and stronger quality than the lowest-cost fast alternatives.",
+  "factors": {
+    "priority_hint": "balanced",
+    "required_total_usd": 49.63,
+    "eta_min": 26,
+    "reliability_score": 85.32,
+    "cancel_rate_pct": 7.34,
+    "on_time_rate_pct": 88.75,
+    "rating": 4.77,
+    "comparison_note": "Compared with the cheapest offer (ep019_vendor_071 at $46.79), this is +$2.84 but 8 minutes faster (26 vs 34) with comparable reliability. Compared with similarly fast low-cost ep019_vendor_000 ($48.00, 26 min), it has much stronger quality signals (+5.29 reliability_score, +0.50 rating, -1.70 cancel_rate_pct)."
+  }
+}

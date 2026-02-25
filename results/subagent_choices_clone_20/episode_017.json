@@ -1,0 +1,32 @@
+{
+  "chosen_vendor_id": "ep017_vendor_095",
+  "chosen_items": [
+    {
+      "item": "chana_masala",
+      "quantity": 1,
+      "unit_price_usd": 12.14
+    },
+    {
+      "item": "chicken_tikka",
+      "quantity": 1,
+      "unit_price_usd": 14.95
+    }
+  ],
+  "reasoning": "ep017_vendor_095 gives the strongest balanced tradeoff: low total cost (31.39), fast ETA (27 min), and best-in-set reliability signals (91.51 reliability_score, 4.98% cancel_rate, 99.0% on_time_rate) with a strong 4.55 rating.",
+  "factors": {
+    "priority_hint": "balanced",
+    "cost_speed_quality_tradeoff": "Near-cheapest total while materially improving reliability and keeping delivery fast.",
+    "selected_vendor_metrics": {
+      "required_total_usd": 31.39,
+      "eta_min": 27,
+      "reliability_score": 91.51,
+      "cancel_rate_pct": 4.98,
+      "on_time_rate_pct": 99.0,
+      "rating": 4.55
+    },
+    "comparison_notes": {
+      "vs_cheapest_option": "Cheapest is ep017_vendor_025 at 30.21, but it is slower (31 min) and much less reliable (80.16 reliability_score, 7.78% cancel_rate).",
+      "vs_fastest_options": "Fastest ETA is 23 min (e.g., ep017_vendor_032/ep017_vendor_092), but both have clearly weaker reliability profiles than ep017_vendor_095."
+    }
+  }
+}

@@ -1,0 +1,329 @@
+episode_id,scenario_type,priority_hint,chosen_vendor_id,chosen_vendor_name,is_doordash_choice,parse_ok,feasible_choice,est_subtotal_usd,rationale,factors_json,tokens_in,tokens_out,latency_ms,error,raw_output
+episode_001,dominated,value,ep001_vendor_022,DashLane022,False,True,True,21.13,"With priority_hint set to value, ep001_vendor_022 keeps total cost low ($24.90) while improving delivery quality versus the absolute cheapest options: faster ETA (28 min) and much stronger reliability signals (86.37 reliability_score, 4.76% cancel_rate_pct, 86.87% on_time_rate_pct, 4.67 rating).","[""priority_hint=value so total cost is primary"", ""required_total_usd is still near the minimum"", ""eta_min (28) is meaningfully faster than the cheapest offers at 40-42 min"", ""reliability_score is high for this price band"", ""cancel_rate_pct is one of the best among low-cost options"", ""on_time_rate_pct and rating are both solid""]",0,0,0,,"{""chosen_vendor_id"":""ep001_vendor_022"",""chosen_items"":[""margherita_pizza"",""spring_rolls""],""reasoning"":""With priority_hint set to value, ep001_vendor_022 keeps total cost low ($24.90) while improving delivery quality versus the absolute cheapest options: faster ETA (28 min) and much stronger reliability signals (86.37 reliability_score, 4.76% cancel_rate_pct, 86.87% on_time_rate_pct, 4.67 rating)."",""factors"":[""priority_hint=value so total cost is primary"",""required_total_usd is still near the minimum"",""eta_min (28) is meaningfully faster than the cheapest offers at 40-42 min"",""reliability_score is high for this price band"",""cancel_rate_pct is one of the best among low-cost options"",""on_time_rate_pct and rating are both solid""]}"
+episode_002,dominated,value,ep002_vendor_070,DashHub070,False,True,True,17.79,"Priority is value, so total cost leads while ETA and reliability break ties. ep002_vendor_070 has a near-minimum total ($20.86) with solid ETA (30 min) and clearly stronger reliability signals (85.45 reliability_score, 6.84% cancel rate, 88.44% on-time, 4.73 rating) than the absolute cheapest option.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep002_vendor_070"",
+  ""chosen_items"": [
+    ""saag_paneer"",
+    ""garlic_naan""
+  ],
+  ""reasoning"": ""Priority is value, so total cost leads while ETA and reliability break ties. ep002_vendor_070 has a near-minimum total ($20.86) with solid ETA (30 min) and clearly stronger reliability signals (85.45 reliability_score, 6.84% cancel rate, 88.44% on-time, 4.73 rating) than the absolute cheapest option."",
+  ""factors"": {
+    ""priority_hint"": ""value"",
+    ""required_total_usd"": 20.86,
+    ""eta_min"": 30,
+    ""reliability_score"": 85.45,
+    ""cancel_rate_pct"": 6.84,
+    ""on_time_rate_pct"": 88.44,
+    ""rating"": 4.73
+  }
+}"
+episode_003,dominated,fast,ep003_vendor_087,DashBite087,False,True,True,20.35,"Priority is fast, so ETA is weighted highest, but cost and reliability still matter. ep003_vendor_087 is just 1 minute slower than the fastest 24-minute options while being materially cheaper and more reliable, giving the best speed-first overall tradeoff.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep003_vendor_087"",
+  ""chosen_items"": [
+    ""quesadilla"",
+    ""cheeseburger""
+  ],
+  ""reasoning"": ""Priority is fast, so ETA is weighted highest, but cost and reliability still matter. ep003_vendor_087 is just 1 minute slower than the fastest 24-minute options while being materially cheaper and more reliable, giving the best speed-first overall tradeoff."",
+  ""factors"": {
+    ""priority_hint"": ""fast"",
+    ""required_total_usd"": 24.13,
+    ""eta_min"": 25,
+    ""reliability_score"": 86.13,
+    ""cancel_rate_pct"": 7.67,
+    ""on_time_rate_pct"": 89.82,
+    ""rating"": 4.88,
+    ""comparison_note"": ""Versus the best 24-minute offer (ep003_vendor_049), this is +1 min ETA, -$2.09 total, and +4.56 reliability score.""
+  }
+}"
+episode_004,dominated,rating,ep004_vendor_003,QuickExpress003,False,True,True,25.49,"Priority hint is rating and the request asks for the most reliable option. ep004_vendor_003 combines an elite rating (4.85) with the strongest reliability profile in this episode (reliability_score 89.36, on_time_rate_pct 94.34, low cancel_rate_pct 6.78), while keeping required_total_usd (31.12) reasonable despite a slower ETA (38 min).","[""priority_hint: rating"", ""request text emphasizes reliability"", ""highest reliability_score among offers (89.36)"", ""highest on_time_rate_pct among offers (94.34)"", ""low cancel_rate_pct (6.78)"", ""required_total_usd is mid-range, acceptable for materially better reliability"", ""eta_min is not fastest, but tradeoff is justified by top reliability""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep004_vendor_003"",
+  ""chosen_items"": [
+    ""fettuccine_alfredo"",
+    ""chana_masala""
+  ],
+  ""reasoning"": ""Priority hint is rating and the request asks for the most reliable option. ep004_vendor_003 combines an elite rating (4.85) with the strongest reliability profile in this episode (reliability_score 89.36, on_time_rate_pct 94.34, low cancel_rate_pct 6.78), while keeping required_total_usd (31.12) reasonable despite a slower ETA (38 min)."",
+  ""factors"": [
+    ""priority_hint: rating"",
+    ""request text emphasizes reliability"",
+    ""highest reliability_score among offers (89.36)"",
+    ""highest on_time_rate_pct among offers (94.34)"",
+    ""low cancel_rate_pct (6.78)"",
+    ""required_total_usd is mid-range, acceptable for materially better reliability"",
+    ""eta_min is not fastest, but tradeoff is justified by top reliability""
+  ]
+}"
+episode_005,dominated,balanced,ep005_vendor_077,NoshHub077,False,True,True,19.67,"Balanced priority favors a strong blend of low total cost, fast ETA, and dependable execution. ep005_vendor_077 combines a low required_total_usd (22.38), very fast ETA (25 min), and strong reliability signals (86.30 reliability_score, 6.96% cancel rate, 89.74% on-time, 4.78 rating), giving the best overall balance.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep005_vendor_077"",
+  ""chosen_items"": [
+    ""chana_masala"",
+    ""spring_rolls""
+  ],
+  ""reasoning"": ""Balanced priority favors a strong blend of low total cost, fast ETA, and dependable execution. ep005_vendor_077 combines a low required_total_usd (22.38), very fast ETA (25 min), and strong reliability signals (86.30 reliability_score, 6.96% cancel rate, 89.74% on-time, 4.78 rating), giving the best overall balance."",
+  ""factors"": {
+    ""priority_hint"": ""balanced"",
+    ""required_total_usd"": 22.38,
+    ""eta_min"": 25,
+    ""reliability_score"": 86.3,
+    ""cancel_rate_pct"": 6.96,
+    ""on_time_rate_pct"": 89.74,
+    ""rating"": 4.78
+  }
+}"
+episode_006,dominated,value,ep006_vendor_001,QuickHub001,False,True,True,27.95,"Priority is value, and ep006_vendor_001 offers a near-minimum total while materially outperforming similarly priced options on ETA and reliability.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep006_vendor_001"",
+  ""chosen_items"": [
+    ""margherita_pizza"",
+    ""green_curry""
+  ],
+  ""reasoning"": ""Priority is value, and ep006_vendor_001 offers a near-minimum total while materially outperforming similarly priced options on ETA and reliability."",
+  ""factors"": {
+    ""priority_hint"": ""value"",
+    ""required_total_usd"": 32.42,
+    ""eta_min"": 28,
+    ""reliability_score"": 89.9,
+    ""cancel_rate_pct"": 5.57,
+    ""on_time_rate_pct"": 92.76,
+    ""rating"": 4.89,
+    ""comparison_note"": ""Among the cheapest vendors, it is only $1.45 above the lowest total ($30.97) but has much stronger reliability and faster delivery than most low-cost alternatives.""
+  }
+}"
+episode_007,dominated,fast,ep007_vendor_074,GoCart074,False,True,True,50.47,"Priority is fast, so ETA is weighted most. ep007_vendor_074 is near-fastest at 27 min (only +2 min from the 25-min minimum) while providing much stronger reliability signals than the 25-26 minute options, including reliability_score 88.81, on_time_rate_pct 96.5, rating 4.69, and manageable cancel_rate_pct 7.72.","[""priority_hint=fast"", ""eta_min=27 (near minimum)"", ""reliability_score=88.81"", ""on_time_rate_pct=96.5"", ""rating=4.69"", ""cancel_rate_pct=7.72"", ""required_total_usd=59.72""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep007_vendor_074"",
+  ""chosen_items"": [
+    ""spaghetti_bolognese"",
+    ""quesadilla"",
+    ""chicken_tikka""
+  ],
+  ""reasoning"": ""Priority is fast, so ETA is weighted most. ep007_vendor_074 is near-fastest at 27 min (only +2 min from the 25-min minimum) while providing much stronger reliability signals than the 25-26 minute options, including reliability_score 88.81, on_time_rate_pct 96.5, rating 4.69, and manageable cancel_rate_pct 7.72."",
+  ""factors"": [
+    ""priority_hint=fast"",
+    ""eta_min=27 (near minimum)"",
+    ""reliability_score=88.81"",
+    ""on_time_rate_pct=96.5"",
+    ""rating=4.69"",
+    ""cancel_rate_pct=7.72"",
+    ""required_total_usd=59.72""
+  ]
+}"
+episode_008,dominated,fast,ep008_vendor_076,BlinkExpress076,False,True,True,29.9,"Priority is fast, so ETA is weighted highest. ep008_vendor_076 is tied for the fastest ETA (24 min) and is the strongest option inside that fastest set on reliability while also having one of the lowest totals, making it the best speed-first tradeoff.","[""priority_hint"", ""eta_min"", ""required_total_usd"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep008_vendor_076"",
+  ""chosen_items"": [
+    ""chicken_tikka"",
+    ""green_curry""
+  ],
+  ""reasoning"": ""Priority is fast, so ETA is weighted highest. ep008_vendor_076 is tied for the fastest ETA (24 min) and is the strongest option inside that fastest set on reliability while also having one of the lowest totals, making it the best speed-first tradeoff."",
+  ""factors"": {
+    ""priority_hint"": ""fast"",
+    ""eta_min"": 24,
+    ""required_total_usd"": 34.18,
+    ""reliability_score"": 83.01,
+    ""cancel_rate_pct"": 7.52,
+    ""on_time_rate_pct"": 90.6,
+    ""rating"": 4.14,
+    ""comparison_note"": ""Among all 24-minute options, this has the best reliability_score and on_time_rate_pct, the lowest cancel_rate_pct, and the lowest required_total_usd.""
+  }
+}"
+episode_009,dominated,value,ep009_vendor_090,NoshMeals090,False,True,True,36.29,"Priority is value, and ep009_vendor_090 is a near-minimum total while decisively better on ETA and reliability than cheaper alternatives.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep009_vendor_090"",
+  ""chosen_items"": [
+    ""tacos"",
+    ""margherita_pizza"",
+    ""chana_masala""
+  ],
+  ""reasoning"": ""Priority is value, and ep009_vendor_090 is a near-minimum total while decisively better on ETA and reliability than cheaper alternatives."",
+  ""factors"": {
+    ""priority_hint"": ""value"",
+    ""required_total_usd"": 40.52,
+    ""eta_min"": 27,
+    ""reliability_score"": 90.8,
+    ""cancel_rate_pct"": 4.6,
+    ""on_time_rate_pct"": 92.73,
+    ""rating"": 4.88,
+    ""comparison_note"": ""It is only $0.92 above the cheapest offer, but 14 minutes faster with much stronger reliability signals.""
+  }
+}"
+episode_010,dominated,balanced,ep010_vendor_026,FeastBite026,False,True,True,19.73,"With a balanced priority across cost, speed, and reliability, ep010_vendor_026 offers the best overall tradeoff: near-lowest total cost, tied-fastest ETA, and acceptable reliability signals.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep010_vendor_026"",
+  ""chosen_items"": [
+    ""nachos"",
+    ""burrito""
+  ],
+  ""reasoning"": ""With a balanced priority across cost, speed, and reliability, ep010_vendor_026 offers the best overall tradeoff: near-lowest total cost, tied-fastest ETA, and acceptable reliability signals."",
+  ""factors"": {
+    ""priority_hint"": ""balanced"",
+    ""required_total_usd"": 22.6,
+    ""eta_min"": 24,
+    ""reliability_score"": 81.68,
+    ""cancel_rate_pct"": 5.22,
+    ""on_time_rate_pct"": 82.73,
+    ""rating"": 4.28,
+    ""comparison_note"": ""This offer is tied for fastest ETA (24 min) and only $0.41 above the absolute cheapest total while keeping stronger reliability than several equally fast options.""
+  }
+}"
+episode_011,near_tie,rating,ep011_vendor_040,RocketCart040,False,True,True,64.91,"With priority_hint set to rating, ep011_vendor_040 offers the best reliability-first tradeoff: an elite rating (4.83) with top-tier reliability metrics (89.31 reliability_score, 4.71% cancel_rate_pct, 90.68% on_time_rate_pct), while also staying faster (26 min ETA) and cheaper ($70.36 total) than the highest-rated 4.86 options.","[""priority_hint"", ""rating"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""required_total_usd"", ""eta_min"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep011_vendor_040"",
+  ""chosen_items"": [
+    ""green_curry"",
+    ""chicken_sandwich"",
+    ""pad_thai""
+  ],
+  ""reasoning"": ""With priority_hint set to rating, ep011_vendor_040 offers the best reliability-first tradeoff: an elite rating (4.83) with top-tier reliability metrics (89.31 reliability_score, 4.71% cancel_rate_pct, 90.68% on_time_rate_pct), while also staying faster (26 min ETA) and cheaper ($70.36 total) than the highest-rated 4.86 options."",
+  ""factors"": {
+    ""priority_hint"": ""rating"",
+    ""rating"": 4.83,
+    ""reliability_score"": 89.31,
+    ""cancel_rate_pct"": 4.71,
+    ""on_time_rate_pct"": 90.68,
+    ""required_total_usd"": 70.36,
+    ""eta_min"": 26,
+    ""comparison_note"": ""Compared with the 4.86-rated options (ep011_vendor_072 and ep011_vendor_096), this choice is materially faster, lower cost, and stronger on reliability_score/cancel_rate_pct, with only a minimal rating gap.""
+  }
+}"
+episode_012,near_tie,balanced,ep012_vendor_043,RocketHub043,False,True,True,39.5,"With priority_hint=balanced, ep012_vendor_043 provides the best cost-speed-reliability tradeoff: a low required_total_usd ($44.71), near-fast eta_min (26), and top-tier reliability signals (88.27 reliability_score, 5.81% cancel_rate_pct, 90.32% on_time_rate_pct, 4.88 rating). It is materially cheaper than the top reliability options while staying much more reliable than similarly priced low-cost alternatives.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating"", ""comparison_note""]",0,0,0,,"{""chosen_vendor_id"":""ep012_vendor_043"",""chosen_items"":[""chana_masala"",""margherita_pizza""],""reasoning"":""With priority_hint=balanced, ep012_vendor_043 provides the best cost-speed-reliability tradeoff: a low required_total_usd ($44.71), near-fast eta_min (26), and top-tier reliability signals (88.27 reliability_score, 5.81% cancel_rate_pct, 90.32% on_time_rate_pct, 4.88 rating). It is materially cheaper than the top reliability options while staying much more reliable than similarly priced low-cost alternatives."",""factors"":{""priority_hint"":""balanced"",""required_total_usd"":44.71,""eta_min"":26,""reliability_score"":88.27,""cancel_rate_pct"":5.81,""on_time_rate_pct"":90.32,""rating"":4.88,""comparison_note"":""vs cheapest overall (ep012_vendor_046): +$2.09, 15 min faster, +3.36 reliability_score; vs highest reliability (ep012_vendor_021): $4.64 cheaper, 2 min faster, only 2.25 lower reliability_score.""}}"
+episode_013,near_tie,rating,ep013_vendor_025,NoshHub025,False,True,True,40.51,"With priority_hint set to rating and the request explicitly asking for the most reliable option, ep013_vendor_025 is the best fit: it has the highest reliability_score (90.09), lowest cancel_rate_pct (4.58), and one of the strongest on_time_rate_pct values (92.58) while still maintaining an elite rating (4.75). Although it is slower and more expensive than some alternatives, its reliability lead is material.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep013_vendor_025"",
+  ""chosen_items"": [
+    ""drunken_noodles"",
+    ""margherita_pizza"",
+    ""burrito""
+  ],
+  ""reasoning"": ""With priority_hint set to rating and the request explicitly asking for the most reliable option, ep013_vendor_025 is the best fit: it has the highest reliability_score (90.09), lowest cancel_rate_pct (4.58), and one of the strongest on_time_rate_pct values (92.58) while still maintaining an elite rating (4.75). Although it is slower and more expensive than some alternatives, its reliability lead is material."",
+  ""factors"": {
+    ""priority_hint"": ""rating"",
+    ""required_total_usd"": 51.25,
+    ""eta_min"": 39,
+    ""reliability_score"": 90.09,
+    ""cancel_rate_pct"": 4.58,
+    ""on_time_rate_pct"": 92.58,
+    ""rating"": 4.75,
+    ""comparison_note"": ""Compared with ep013_vendor_045 (same 4.75 rating), this choice is +$4.78 and +13 min but improves reliability_score by 2.79 and cancel_rate_pct by 1.24. Compared with ep013_vendor_078 (higher 4.79 rating), it is +$8.19 and +11 min but materially stronger on reliability_score (+3.99) and cancel_rate_pct (-3.18).""
+  }
+}"
+episode_014,near_tie,rating,ep014_vendor_083,PrimeCart083,False,True,True,25.64,"With priority_hint set to rating, ep014_vendor_083 provides the best reliability-first tradeoff among top-rated options: a very high 4.86 rating with elite reliability metrics (88.23 reliability_score, 5.67% cancel_rate_pct, 90.19% on_time_rate_pct), while also being faster and cheaper than the highest-rated 4.89 alternative.","[""priority_hint"", ""rating"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""required_total_usd"", ""eta_min"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep014_vendor_083"",
+  ""chosen_items"": [
+    ""buffalo_wings"",
+    ""margherita_pizza""
+  ],
+  ""reasoning"": ""With priority_hint set to rating, ep014_vendor_083 provides the best reliability-first tradeoff among top-rated options: a very high 4.86 rating with elite reliability metrics (88.23 reliability_score, 5.67% cancel_rate_pct, 90.19% on_time_rate_pct), while also being faster and cheaper than the highest-rated 4.89 alternative."",
+  ""factors"": {
+    ""priority_hint"": ""rating"",
+    ""rating"": 4.86,
+    ""reliability_score"": 88.23,
+    ""cancel_rate_pct"": 5.67,
+    ""on_time_rate_pct"": 90.19,
+    ""required_total_usd"": 31.69,
+    ""eta_min"": 27,
+    ""comparison_note"": ""Compared with ep014_vendor_041 (rating 4.89), this choice is 7 minutes faster, $1.81 cheaper, and has a much lower cancel rate (5.67% vs 7.62%) with only a 0.03 rating gap.""
+  }
+}"
+episode_015,near_tie,value,ep015_vendor_082,SwiftMeals082,False,True,True,23.34,"Priority is value, and ep015_vendor_082 is a near-minimum total while offering stronger reliability than the absolute cheapest options with a still-reasonable ETA.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep015_vendor_082"",
+  ""chosen_items"": [
+    ""chana_masala"",
+    ""cheeseburger""
+  ],
+  ""reasoning"": ""Priority is value, and ep015_vendor_082 is a near-minimum total while offering stronger reliability than the absolute cheapest options with a still-reasonable ETA."",
+  ""factors"": {
+    ""priority_hint"": ""value"",
+    ""required_total_usd"": 27.6,
+    ""eta_min"": 29,
+    ""reliability_score"": 86.13,
+    ""cancel_rate_pct"": 6.94,
+    ""on_time_rate_pct"": 88.95,
+    ""rating"": 4.83,
+    ""comparison_note"": ""It is only $0.26 above the cheapest offer (ep015_vendor_019) but has much stronger reliability (+9.01 reliability_score, lower cancel rate) with just a 3-minute ETA tradeoff.""
+  }
+}"
+episode_016,competitive,balanced,ep016_vendor_000,DoorDash,True,True,True,41.95,"With priority_hint=balanced, ep016_vendor_000 is the best overall tradeoff: it has the lowest required_total_usd while also posting the strongest reliability profile (top reliability_score, top on_time_rate_pct, very high rating, and low cancel_rate_pct). Its ETA is slower than the fastest options, but the cost and quality gains are substantial enough to win a balanced decision.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep016_vendor_000"",
+  ""chosen_items"": [
+    ""chicken_tikka"",
+    ""pad_thai""
+  ],
+  ""reasoning"": ""With priority_hint=balanced, ep016_vendor_000 is the best overall tradeoff: it has the lowest required_total_usd while also posting the strongest reliability profile (top reliability_score, top on_time_rate_pct, very high rating, and low cancel_rate_pct). Its ETA is slower than the fastest options, but the cost and quality gains are substantial enough to win a balanced decision."",
+  ""factors"": {
+    ""priority_hint"": ""balanced"",
+    ""required_total_usd"": 46.5,
+    ""eta_min"": 36,
+    ""reliability_score"": 91.8,
+    ""cancel_rate_pct"": 6.33,
+    ""on_time_rate_pct"": 97.6,
+    ""rating"": 4.89,
+    ""comparison_note"": ""Compared with faster ep016_vendor_002 (24 min), this is $3.21 cheaper and materially stronger on quality signals (+7.31 reliability_score, +6.40 on_time_rate_pct, +0.49 rating).""
+  }
+}"
+episode_017,competitive,rating,ep017_vendor_086,PrimeNow086,False,True,True,18.11,"With priority_hint=rating, ep017_vendor_086 is the strongest choice because it has the highest rating in the market (4.88) and also the best reliability profile (top reliability_score, strong on-time performance, and low cancel rate). It additionally has the lowest required_total_usd, so there is no cost tradeoff required to get the best quality signals.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep017_vendor_086"",
+  ""chosen_items"": [
+    ""drunken_noodles"",
+    ""fries""
+  ],
+  ""reasoning"": ""With priority_hint=rating, ep017_vendor_086 is the strongest choice because it has the highest rating in the market (4.88) and also the best reliability profile (top reliability_score, strong on-time performance, and low cancel rate). It additionally has the lowest required_total_usd, so there is no cost tradeoff required to get the best quality signals."",
+  ""factors"": {
+    ""priority_hint"": ""rating"",
+    ""required_total_usd"": 20.45,
+    ""eta_min"": 37,
+    ""reliability_score"": 90.93,
+    ""cancel_rate_pct"": 5.55,
+    ""on_time_rate_pct"": 94.69,
+    ""rating"": 4.88,
+    ""comparison_note"": ""Compared with ep017_vendor_018 (next-best high-rating option), this choice has a higher rating (+0.02), higher reliability_score (+2.03), lower cancel_rate_pct (-1.47), and is cheaper by $0.41, at the expense of a 5-minute longer ETA.""
+  }
+}"
+episode_018,competitive,rating,ep018_vendor_032,SwiftNow032,False,True,True,17.72,"With priority_hint=rating and a request for the most reliable option, ep018_vendor_032 is the best fit: it has the highest reliability_score in the market (88.78), an elite rating (4.8), low cancel_rate_pct (5.58), and strong on_time_rate_pct (91.57). While it is not the cheapest or fastest, its reliability lead over similarly rated alternatives is the deciding factor.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep018_vendor_032"",
+  ""chosen_items"": [
+    ""fries"",
+    ""pad_thai""
+  ],
+  ""reasoning"": ""With priority_hint=rating and a request for the most reliable option, ep018_vendor_032 is the best fit: it has the highest reliability_score in the market (88.78), an elite rating (4.8), low cancel_rate_pct (5.58), and strong on_time_rate_pct (91.57). While it is not the cheapest or fastest, its reliability lead over similarly rated alternatives is the deciding factor."",
+  ""factors"": {
+    ""priority_hint"": ""rating"",
+    ""required_total_usd"": 23.27,
+    ""eta_min"": 34,
+    ""reliability_score"": 88.78,
+    ""cancel_rate_pct"": 5.58,
+    ""on_time_rate_pct"": 91.57,
+    ""rating"": 4.8,
+    ""comparison_note"": ""Compared with ep018_vendor_075 (higher 4.85 rating), this choice has a stronger reliability_score (+1.22) and higher on_time_rate_pct (+3.38), but is $1.96 more expensive and 10 minutes slower.""
+  }
+}"
+episode_019,competitive,balanced,ep019_vendor_063,BlinkDrop063,False,True,True,44.56,"With priority_hint set to balanced, ep019_vendor_063 gives the strongest overall tradeoff: low total cost, near-fastest ETA, and solid reliability/quality signals. It is only modestly more expensive than the cheapest option while delivering materially faster ETA and stronger quality than the lowest-cost fast alternatives.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep019_vendor_063"",
+  ""chosen_items"": [
+    ""cheeseburger"",
+    ""burrito"",
+    ""chicken_sandwich""
+  ],
+  ""reasoning"": ""With priority_hint set to balanced, ep019_vendor_063 gives the strongest overall tradeoff: low total cost, near-fastest ETA, and solid reliability/quality signals. It is only modestly more expensive than the cheapest option while delivering materially faster ETA and stronger quality than the lowest-cost fast alternatives."",
+  ""factors"": {
+    ""priority_hint"": ""balanced"",
+    ""required_total_usd"": 49.63,
+    ""eta_min"": 26,
+    ""reliability_score"": 85.32,
+    ""cancel_rate_pct"": 7.34,
+    ""on_time_rate_pct"": 88.75,
+    ""rating"": 4.77,
+    ""comparison_note"": ""Compared with the cheapest offer (ep019_vendor_071 at $46.79), this is +$2.84 but 8 minutes faster (26 vs 34) with comparable reliability. Compared with similarly fast low-cost ep019_vendor_000 ($48.00, 26 min), it has much stronger quality signals (+5.29 reliability_score, +0.50 rating, -1.70 cancel_rate_pct).""
+  }
+}"
+episode_020,competitive,fast,ep020_vendor_048,BlinkLane048,False,True,True,44.59,"With priority_hint=fast, ep020_vendor_048 is the best pick because it is tied for the fastest ETA (23 min) while also having the strongest reliability profile and near-minimum total among the fastest options.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""reliability_score"", ""cancel_rate_pct"", ""on_time_rate_pct"", ""rating"", ""comparison_note""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep020_vendor_048"",
+  ""chosen_items"": [
+    ""spaghetti_bolognese"",
+    ""fettuccine_alfredo"",
+    ""chicken_tikka""
+  ],
+  ""reasoning"": ""With priority_hint=fast, ep020_vendor_048 is the best pick because it is tied for the fastest ETA (23 min) while also having the strongest reliability profile and near-minimum total among the fastest options."",
+  ""factors"": {
+    ""priority_hint"": ""fast"",
+    ""required_total_usd"": 49.49,
+    ""eta_min"": 23,
+    ""reliability_score"": 87.47,
+    ""cancel_rate_pct"": 7.31,
+    ""on_time_rate_pct"": 92.51,
+    ""rating"": 4.78,
+    ""comparison_note"": ""Versus the other 23-minute options, it is strongest overall; compared with ep020_vendor_074 (also 23 min), it is $0.01 cheaper and materially better on reliability (+6.96), on-time rate (+6.43), and rating (+0.64).""
+  }
+}"

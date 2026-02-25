@@ -1,0 +1,1 @@
+{"chosen_vendor_id": "ep002_vendor_047", "chosen_items": ["pepperoni_pizza", "quesadilla"], "reasoning": "Priority 'rating': DashBite047 has highest rating (4.86) and strong reliability (85.78), lowest cancel rate (3.8%).", "factors": ["rating", "reliability_score", "cancel_rate_pct"]}

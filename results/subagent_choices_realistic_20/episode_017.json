@@ -1,0 +1,17 @@
+{
+  "chosen_vendor_id": "ep017_vendor_086",
+  "chosen_items": [
+    "drunken_noodles",
+    "fries"
+  ],
+  "reasoning": "Selected ep017_vendor_086 because the request emphasizes reliability and has priority_hint=rating; this offer has the highest rating (4.88) and highest reliability_score (90.93), plus strong on_time_rate_pct (94.69) and low cancel_rate_pct (5.55). It also has the lowest required_total_usd (20.45) among the top reliability candidates. ETA (37 min) is slower than the fastest options but acceptable given the reliability-first objective.",
+  "factors": {
+    "priority_hint": "rating",
+    "required_total_usd": 20.45,
+    "eta_min": 37,
+    "rating": 4.88,
+    "reliability_score": 90.93,
+    "cancel_rate_pct": 5.55,
+    "on_time_rate_pct": 94.69
+  }
+}

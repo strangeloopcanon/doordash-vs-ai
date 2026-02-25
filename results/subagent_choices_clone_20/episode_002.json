@@ -1,0 +1,18 @@
+{
+  "chosen_vendor_id": "ep002_vendor_081",
+  "chosen_items": [
+    "fettuccine_alfredo",
+    "buffalo_wings",
+    "margherita_pizza"
+  ],
+  "reasoning": "Priority is speed, so I chose a minimum-ETA option (24 min) and then broke the tie using reliability signals; this vendor has the strongest overall reliability mix among the 24-minute carts while still keeping total cost in range.",
+  "factors": {
+    "priority_hint": "fast",
+    "eta_min": 24,
+    "required_total_usd": 47.13,
+    "reliability_score": 86.8,
+    "cancel_rate_pct": 5.04,
+    "on_time_rate_pct": 90.83,
+    "rating": 4.77
+  }
+}

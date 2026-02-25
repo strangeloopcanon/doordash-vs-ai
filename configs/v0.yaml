@@ -1,0 +1,37 @@
+seed: 20260224
+num_episodes: 20
+vendors_per_episode: 100
+
+dominated_episodes: 10
+near_tie_episodes: 5
+competitive_episodes: 5
+
+model: gpt-5.2
+batch_size: 4
+max_retries: 3
+retry_backoff_seconds: 1.5
+max_output_tokens: 700
+
+random_equation_samples: 100
+
+menus:
+  doordash_items: 15
+  synthetic_items_min: 10
+  synthetic_items_max: 14
+  synthetic_cheaper_ratio: 0.55
+
+ranges:
+  rating_min: 3.2
+  rating_max: 4.9
+  eta_min: 18
+  eta_max: 48
+  delivery_fee_min: 1.49
+  delivery_fee_max: 6.49
+  service_fee_pct_min: 3.0
+  service_fee_pct_max: 14.0
+
+priority_hints:
+  - value
+  - fast
+  - rating
+  - balanced

@@ -1,0 +1,18 @@
+{
+  "chosen_vendor_id": "ep007_vendor_074",
+  "chosen_items": [
+    "spaghetti_bolognese",
+    "quesadilla",
+    "chicken_tikka"
+  ],
+  "reasoning": "Priority is fast, so ETA is weighted most. ep007_vendor_074 is near-fastest at 27 min (only +2 min from the 25-min minimum) while providing much stronger reliability signals than the 25-26 minute options, including reliability_score 88.81, on_time_rate_pct 96.5, rating 4.69, and manageable cancel_rate_pct 7.72.",
+  "factors": [
+    "priority_hint=fast",
+    "eta_min=27 (near minimum)",
+    "reliability_score=88.81",
+    "on_time_rate_pct=96.5",
+    "rating=4.69",
+    "cancel_rate_pct=7.72",
+    "required_total_usd=59.72"
+  ]
+}

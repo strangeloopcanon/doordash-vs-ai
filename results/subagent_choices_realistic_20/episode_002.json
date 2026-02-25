@@ -1,0 +1,14 @@
+{
+  "chosen_vendor_id": "ep002_vendor_070",
+  "chosen_items": [
+    "saag_paneer",
+    "garlic_naan"
+  ],
+  "reasoning": "Picked the best value balance: near-minimum total cost with solid ETA and clearly stronger reliability than similarly priced alternatives.",
+  "factors": [
+    "priority_hint is value, so total price was weighted most heavily",
+    "required_total_usd is $20.86, only $0.84 above the absolute cheapest option",
+    "eta_min is 30, still reasonable for dinner",
+    "reliability is stronger than cheaper options (reliability_score 85.45, cancel_rate_pct 6.84, on_time_rate_pct 88.44, rating 4.73)"
+  ]
+}

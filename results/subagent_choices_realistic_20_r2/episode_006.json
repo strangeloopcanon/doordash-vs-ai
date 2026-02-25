@@ -1,0 +1,18 @@
+{
+  "chosen_vendor_id": "ep006_vendor_001",
+  "chosen_items": [
+    "margherita_pizza",
+    "green_curry"
+  ],
+  "reasoning": "Priority is value, and ep006_vendor_001 offers a near-minimum total while materially outperforming similarly priced options on ETA and reliability.",
+  "factors": {
+    "priority_hint": "value",
+    "required_total_usd": 32.42,
+    "eta_min": 28,
+    "reliability_score": 89.9,
+    "cancel_rate_pct": 5.57,
+    "on_time_rate_pct": 92.76,
+    "rating": 4.89,
+    "comparison_note": "Among the cheapest vendors, it is only $1.45 above the lowest total ($30.97) but has much stronger reliability and faster delivery than most low-cost alternatives."
+  }
+}

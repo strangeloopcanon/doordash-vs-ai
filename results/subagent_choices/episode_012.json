@@ -1,0 +1,16 @@
+{
+  "chosen_vendor_id": "ep012_vendor_053",
+  "chosen_items": {
+    "chicken_tikka": 1,
+    "fries": 2
+  },
+  "reasoning": "Best value overall: it has the lowest required_total_usd while still offering a high rating, acceptable ETA, and very low delivery/service fees.",
+  "factors": {
+    "priority_hint": "value",
+    "required_total_usd": 25.24,
+    "eta_min": 30,
+    "rating": 4.77,
+    "delivery_fee_usd": 1.31,
+    "service_fee_pct": 0.43
+  }
+}

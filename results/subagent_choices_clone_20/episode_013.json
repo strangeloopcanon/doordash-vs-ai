@@ -1,0 +1,32 @@
+{
+  "chosen_vendor_id": "ep013_vendor_097",
+  "chosen_items": [
+    {
+      "item": "pepperoni_pizza",
+      "quantity": 1,
+      "unit_price_usd": 16.93
+    },
+    {
+      "item": "spring_rolls",
+      "quantity": 1,
+      "unit_price_usd": 6.36
+    }
+  ],
+  "reasoning": "For a request explicitly asking for the most reliable option with rating as the priority hint, ep013_vendor_097 is the strongest pick: it has the highest reliability_score (91.75), the lowest cancel_rate_pct (0.5), a strong rating (4.77), and acceptable ETA/cost for a reliability-first decision.",
+  "factors": {
+    "priority_hint": "rating",
+    "selection_policy": "Reliability-first for rating-priority reliability request, then rating, then total and ETA.",
+    "selected_vendor_metrics": {
+      "required_total_usd": 29.31,
+      "eta_min": 37,
+      "reliability_score": 91.75,
+      "cancel_rate_pct": 0.5,
+      "on_time_rate_pct": 88.56,
+      "rating": 4.77
+    },
+    "comparison_notes": {
+      "vs_next_best_reliability": "ep013_vendor_089 is cheaper and faster (26.39, 28 min) with better on-time rate, but it has lower reliability_score (89.38) and much higher cancel_rate (4.69).",
+      "vs_top_rating_option": "ep013_vendor_093 has the highest rating (4.9), but weaker reliability_score (86.42), higher total (30.04), and no reliability advantage."
+    }
+  }
+}

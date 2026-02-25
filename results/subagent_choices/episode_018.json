@@ -1,0 +1,15 @@
+{
+  "chosen_vendor_id": "ep018_vendor_038",
+  "chosen_items": [
+    "nachos",
+    "pad_thai"
+  ],
+  "reasoning": "ep018_vendor_038 offers the best balanced tradeoff across cost, speed, and quality: one of the very lowest required totals, a fast ETA, strong rating, and very low service fee.",
+  "factors": {
+    "required_total_usd": 47.37,
+    "eta_min": 21,
+    "rating": 4.48,
+    "delivery_fee_usd": 4.67,
+    "service_fee_pct": 0.46
+  }
+}

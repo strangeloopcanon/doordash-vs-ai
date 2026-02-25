@@ -1,0 +1,1 @@
+{"chosen_vendor_id": "ep007_vendor_093", "chosen_items": ["chicken_tikka", "spaghetti_bolognese"], "reasoning": "Rating priority: ep007_vendor_093 has highest rating (4.89) among all vendors. Reliability_score 82.19 and on_time_rate 86.63% are solid. Chosen strictly by metrics.", "factors": ["rating", "reliability_score", "on_time_rate_pct"]}

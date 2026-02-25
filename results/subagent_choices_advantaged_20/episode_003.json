@@ -1,0 +1,1 @@
+{"chosen_vendor_id": "ep003_vendor_087", "chosen_items": ["cheeseburger", "margherita_pizza"], "reasoning": "Priority 'value': DashHub087 has lowest total cost ($39.78) with good reliability (82.77) and ETA (26 min).", "factors": ["required_total_usd", "eta_min", "reliability_score"]}

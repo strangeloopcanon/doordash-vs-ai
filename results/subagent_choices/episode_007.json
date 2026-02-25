@@ -1,0 +1,14 @@
+{
+  "chosen_vendor_id": "ep007_vendor_001",
+  "chosen_items": [
+    "chana_masala",
+    "spaghetti_bolognese"
+  ],
+  "reasoning": "Best value choice: lowest required total while still offering fast delivery, excellent rating, and low fees.",
+  "factors": [
+    "Lowest required total among offers at $23.58",
+    "Fast ETA at 21 minutes",
+    "High rating of 4.86",
+    "Low delivery fee ($1.78) and very low service fee (1.46%)"
+  ]
+}

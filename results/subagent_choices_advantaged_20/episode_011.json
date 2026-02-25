@@ -1,0 +1,1 @@
+{"chosen_vendor_id": "ep011_vendor_052", "chosen_items": ["green_curry", "chicken_tikka", "pad_thai"], "reasoning": "Fast priority: chose vendor with lowest ETA (26 min). Among 7 vendors at 26 min, ep011_vendor_052 has lowest cost ($64.68) and solid reliability (76.94).", "factors": ["eta_min", "required_total_usd", "reliability_score"]}

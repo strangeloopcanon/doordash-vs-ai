@@ -1,0 +1,32 @@
+{
+  "chosen_vendor_id": "ep007_vendor_040",
+  "chosen_items": [
+    {
+      "item": "nachos",
+      "quantity": 1,
+      "unit_price_usd": 8.84
+    },
+    {
+      "item": "chicken_tikka",
+      "quantity": 1,
+      "unit_price_usd": 16.02
+    }
+  ],
+  "reasoning": "Speed was prioritized, so I chose a fastest-ETA vendor (22 min) and within that tier selected the strongest balance of total cost and reliability.",
+  "factors": {
+    "priority_hint": "fast",
+    "selected_vendor_metrics": {
+      "required_total_usd": 29.25,
+      "eta_min": 22,
+      "reliability_score": 82.93,
+      "cancel_rate_pct": 6.76,
+      "on_time_rate_pct": 90.83,
+      "rating": 4.04
+    },
+    "comparison_notes": {
+      "vs_same_eta_cheapest": "ep007_vendor_027 is $0.52 cheaper at the same 22 min ETA, but with materially weaker reliability (76.71 vs 82.93) and higher cancel rate (8.76% vs 6.76%).",
+      "vs_same_eta_most_reliable": "ep007_vendor_006 is slightly more reliable (84.47) at the same ETA, but costs $1.38 more.",
+      "vs_nearby_eta_value_option": "ep007_vendor_090 is cheaper ($27.20) with similar reliability (82.47), but is slower at 23 min."
+    }
+  }
+}

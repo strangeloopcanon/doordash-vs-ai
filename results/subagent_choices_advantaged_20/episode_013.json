@@ -1,0 +1,1 @@
+{"chosen_vendor_id": "ep013_vendor_001", "chosen_items": ["chicken_tikka", "tacos", "nachos"], "reasoning": "Value priority: ep013_vendor_001 has lowest total cost ($35.43) among all offers. Break ties with ETA (28 min) and reliability.", "factors": ["required_total_usd", "eta_min", "reliability_score"]}

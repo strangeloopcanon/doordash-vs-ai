@@ -1,0 +1,17 @@
+{
+  "chosen_vendor_id": "ep010_vendor_028",
+  "chosen_items": {
+    "saag_paneer": 1,
+    "fettuccine_alfredo": 1,
+    "chana_masala": 1
+  },
+  "reasoning": "The request prioritizes reliability (rating), and ep010_vendor_028 has the highest rating (4.9). While its ETA, total, and fees are not the lowest, they are acceptable tradeoffs for selecting the top-rated option.",
+  "factors": {
+    "priority_hint": "rating",
+    "required_total_usd": 50.54,
+    "eta_min": 58,
+    "rating": 4.9,
+    "delivery_fee_usd": 8.73,
+    "service_fee_pct": 9.34
+  }
+}

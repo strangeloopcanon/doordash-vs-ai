@@ -1,0 +1,6 @@
+episode_id,scenario_type,priority_hint,chosen_vendor_id,chosen_vendor_name,is_doordash_choice,parse_ok,feasible_choice,est_subtotal_usd,rationale,factors_json,tokens_in,tokens_out,latency_ms,error,raw_output
+episode_001,dominated,value,ep001_vendor_001,NoshNow001,False,True,True,16.1,Mock runner selected vendor by deterministic policy.,"[""lowest_total"", ""tie_break_eta""]",0,0,0,,
+episode_002,dominated,fast,ep002_vendor_058,DashHub058,False,True,True,21.14,Mock runner selected vendor by deterministic policy.,"[""fastest_eta"", ""tie_break_total""]",0,0,0,,
+episode_003,dominated,balanced,ep003_vendor_001,GoRunner001,False,True,True,43.99,Mock runner selected vendor by deterministic policy.,"[""balanced_total_eta_rating""]",0,0,0,,
+episode_004,dominated,fast,ep004_vendor_043,FeastDrop043,False,True,True,22.65,Mock runner selected vendor by deterministic policy.,"[""fastest_eta"", ""tie_break_total""]",0,0,0,,
+episode_005,dominated,balanced,ep005_vendor_001,SwiftHub001,False,True,True,23.52,Mock runner selected vendor by deterministic policy.,"[""balanced_total_eta_rating""]",0,0,0,,

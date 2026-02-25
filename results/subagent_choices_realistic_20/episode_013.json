@@ -1,0 +1,20 @@
+{
+  "chosen_vendor_id": "ep013_vendor_045",
+  "chosen_items": [
+    "drunken_noodles",
+    "margherita_pizza",
+    "burrito"
+  ],
+  "reasoning": "Priority is rating and the request asks for the most reliable option. ep013_vendor_045 combines a top-tier rating (4.75) with strong reliability signals (87.3 reliability_score, 5.82% cancel_rate_pct, 89.76% on_time_rate_pct) while keeping ETA fast (26 min) and total cost reasonable ($46.47), giving the best overall balance.",
+  "factors": {
+    "priority_hint": "rating",
+    "required_total_usd": 46.47,
+    "eta_min": 26,
+    "reliability": {
+      "reliability_score": 87.3,
+      "cancel_rate_pct": 5.82,
+      "on_time_rate_pct": 89.76,
+      "rating": 4.75
+    }
+  }
+}

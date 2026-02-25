@@ -1,0 +1,19 @@
+{
+  "chosen_vendor_id": "ep009_vendor_090",
+  "chosen_items": [
+    "tacos",
+    "margherita_pizza",
+    "chana_masala"
+  ],
+  "reasoning": "Priority is value, and ep009_vendor_090 is a near-minimum total while decisively better on ETA and reliability than cheaper alternatives.",
+  "factors": {
+    "priority_hint": "value",
+    "required_total_usd": 40.52,
+    "eta_min": 27,
+    "reliability_score": 90.8,
+    "cancel_rate_pct": 4.6,
+    "on_time_rate_pct": 92.73,
+    "rating": 4.88,
+    "comparison_note": "It is only $0.92 above the cheapest offer, but 14 minutes faster with much stronger reliability signals."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "chosen_vendor_id": "ep004_vendor_003",
+  "chosen_items": [
+    "fettuccine_alfredo",
+    "chana_masala"
+  ],
+  "reasoning": "Priority hint is rating and the request asks for the most reliable option. ep004_vendor_003 combines an elite rating (4.85) with the strongest reliability profile in this episode (reliability_score 89.36, on_time_rate_pct 94.34, low cancel_rate_pct 6.78), while keeping required_total_usd (31.12) reasonable despite a slower ETA (38 min).",
+  "factors": [
+    "priority_hint: rating",
+    "request text emphasizes reliability",
+    "highest reliability_score among offers (89.36)",
+    "highest on_time_rate_pct among offers (94.34)",
+    "low cancel_rate_pct (6.78)",
+    "required_total_usd is mid-range, acceptable for materially better reliability",
+    "eta_min is not fastest, but tradeoff is justified by top reliability"
+  ]
+}

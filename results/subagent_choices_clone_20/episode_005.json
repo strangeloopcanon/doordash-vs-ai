@@ -1,0 +1,31 @@
+{
+  "chosen_vendor_id": "ep005_vendor_095",
+  "chosen_items": [
+    {
+      "item": "buffalo_wings",
+      "quantity": 1,
+      "unit_price_usd": 10.43
+    },
+    {
+      "item": "quesadilla",
+      "quantity": 2,
+      "unit_price_usd": 9.09
+    }
+  ],
+  "reasoning": "For a balanced request, ep005_vendor_095 is the best overall tradeoff: it has the lowest required total and the fastest ETA while keeping reliability signals acceptable.",
+  "factors": {
+    "priority_hint": "balanced",
+    "selected_vendor_metrics": {
+      "required_total_usd": 31.9,
+      "eta_min": 27,
+      "reliability_score": 78.3,
+      "cancel_rate_pct": 8.2,
+      "on_time_rate_pct": 85.96,
+      "rating": 4.24
+    },
+    "comparison_notes": {
+      "vs_next_balanced_candidate": "ep005_vendor_036 has stronger reliability but is +$0.96 and 4 minutes slower.",
+      "vs_highest_reliability_candidate": "ep005_vendor_069 has top reliability_score (89.52) but is +$2.36 and 5 minutes slower."
+    }
+  }
+}

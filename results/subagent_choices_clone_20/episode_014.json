@@ -1,0 +1,36 @@
+{
+  "chosen_vendor_id": "ep014_vendor_022",
+  "chosen_items": [
+    {
+      "item": "fries",
+      "quantity": 1,
+      "unit_price_usd": 3.86
+    },
+    {
+      "item": "burrito",
+      "quantity": 2,
+      "unit_price_usd": 10.2
+    },
+    {
+      "item": "quesadilla",
+      "quantity": 1,
+      "unit_price_usd": 8.97
+    }
+  ],
+  "reasoning": "Selected ep014_vendor_022 because it offers one of the lowest totals while maintaining a strong reliability profile and a top-tier ETA, which best matches the value priority.",
+  "factors": {
+    "priority_hint": "value",
+    "selected_vendor_metrics": {
+      "required_total_usd": 37.56,
+      "eta_min": 27,
+      "reliability_score": 82.02,
+      "cancel_rate_pct": 5.51,
+      "on_time_rate_pct": 86.61,
+      "rating": 4.02
+    },
+    "comparison_notes": {
+      "vs_lowest_total_option": "ep014_vendor_019 is cheaper (36.93) but much slower (37 min) and notably less reliable (75.56 reliability, 8.59% cancel).",
+      "vs_close_value_competitors": "ep014_vendor_040 has slightly better reliability (83.51) but is slower (32 min); ep014_vendor_069 is more reliable (84.38) but costs more (38.10) with no ETA advantage over the fastest tier."
+    }
+  }
+}

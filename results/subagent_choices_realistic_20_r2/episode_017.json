@@ -1,0 +1,18 @@
+{
+  "chosen_vendor_id": "ep017_vendor_086",
+  "chosen_items": [
+    "drunken_noodles",
+    "fries"
+  ],
+  "reasoning": "With priority_hint=rating, ep017_vendor_086 is the strongest choice because it has the highest rating in the market (4.88) and also the best reliability profile (top reliability_score, strong on-time performance, and low cancel rate). It additionally has the lowest required_total_usd, so there is no cost tradeoff required to get the best quality signals.",
+  "factors": {
+    "priority_hint": "rating",
+    "required_total_usd": 20.45,
+    "eta_min": 37,
+    "reliability_score": 90.93,
+    "cancel_rate_pct": 5.55,
+    "on_time_rate_pct": 94.69,
+    "rating": 4.88,
+    "comparison_note": "Compared with ep017_vendor_018 (next-best high-rating option), this choice has a higher rating (+0.02), higher reliability_score (+2.03), lower cancel_rate_pct (-1.47), and is cheaper by $0.41, at the expense of a 5-minute longer ETA."
+  }
+}

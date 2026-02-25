@@ -1,0 +1,37 @@
+{
+  "chosen_vendor_id": "ep016_vendor_026",
+  "chosen_items": [
+    {
+      "item": "quesadilla",
+      "quantity": 1,
+      "unit_price_usd": 9.41
+    },
+    {
+      "item": "chicken_sandwich",
+      "quantity": 1,
+      "unit_price_usd": 10.86
+    },
+    {
+      "item": "fettuccine_alfredo",
+      "quantity": 2,
+      "unit_price_usd": 14.17
+    }
+  ],
+  "reasoning": "ep016_vendor_026 gives the best value mix: near-bottom total cost, one of the fastest ETAs, and strong reliability signals, so it balances affordability with dependable delivery better than the closest alternatives.",
+  "factors": {
+    "priority_hint": "value",
+    "selected_vendor_metrics": {
+      "required_total_usd": 53.41,
+      "eta_min": 28,
+      "reliability_score": 83.79,
+      "cancel_rate_pct": 5.52,
+      "on_time_rate_pct": 87.87,
+      "rating": 4.52
+    },
+    "comparison_notes": {
+      "vs_lowest_total_option": "ep016_vendor_010 is cheaper (51.31) but is much slower (36 min) and less reliable (77.45 reliability, 8.05% cancel).",
+      "vs_close_cost_reliability_option": "ep016_vendor_020 is slightly cheaper (53.03) with excellent reliability, but slower at 34 min and lower rated (3.5).",
+      "vs_high_reliability_competitor": "ep016_vendor_073 is very reliable, but costs more (54.33) and is slower (30 min), so its value is weaker."
+    }
+  }
+}

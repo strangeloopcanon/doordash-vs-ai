@@ -1,0 +1,37 @@
+{
+  "chosen_vendor_id": "ep003_vendor_097",
+  "chosen_items": [
+    {
+      "item": "fries",
+      "quantity": 1,
+      "unit_price_usd": 3.85
+    },
+    {
+      "item": "garlic_naan",
+      "quantity": 2,
+      "unit_price_usd": 4.32
+    },
+    {
+      "item": "buffalo_wings",
+      "quantity": 2,
+      "unit_price_usd": 10.64
+    }
+  ],
+  "reasoning": "For a balanced priority, ep003_vendor_097 is the best overall tradeoff: low total cost and fast ETA with solid reliability/quality signals. It is much stronger on speed and cost than the highest-reliability carts while keeping reliability metrics in a healthy range.",
+  "factors": {
+    "priority_hint": "balanced",
+    "selected_vendor_metrics": {
+      "required_total_usd": 37.4,
+      "eta_min": 26,
+      "reliability_score": 80.4,
+      "cancel_rate_pct": 6.71,
+      "on_time_rate_pct": 86.64,
+      "rating": 4.04
+    },
+    "comparison_notes": {
+      "vs_cheapest_option": "Cheapest is ep003_vendor_038 at 36.55, but it is slower (30 min) with weaker reliability_score (75.54).",
+      "vs_fastest_option": "Fastest ETA is 25 min (e.g., ep003_vendor_075), but those options are generally pricier and/or less reliable overall.",
+      "vs_highest_reliability_option": "Highest reliability_score is ep003_vendor_081 (89.65), but it costs more (39.31) and is slower (32 min)."
+    }
+  }
+}

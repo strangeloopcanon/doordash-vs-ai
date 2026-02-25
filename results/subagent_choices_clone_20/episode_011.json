@@ -1,0 +1,32 @@
+{
+  "chosen_vendor_id": "ep011_vendor_060",
+  "chosen_items": [
+    {
+      "item": "saag_paneer",
+      "quantity": 1,
+      "unit_price_usd": 14.06
+    },
+    {
+      "item": "pepperoni_pizza",
+      "quantity": 1,
+      "unit_price_usd": 16.22
+    }
+  ],
+  "reasoning": "For a balanced goal across cost, speed, and quality/reliability, ep011_vendor_060 is the strongest overall compromise: it is among the lowest total-cost carts and still fast, while posting clearly better reliability signals than most similarly priced fast options.",
+  "factors": {
+    "priority_hint": "balanced",
+    "selected_vendor_metrics": {
+      "required_total_usd": 33.68,
+      "eta_min": 29,
+      "reliability_score": 84.09,
+      "cancel_rate_pct": 5.19,
+      "on_time_rate_pct": 87.84,
+      "rating": 4.45
+    },
+    "comparison_notes": {
+      "vs_faster_option": "ep011_vendor_046 is faster (25 min) but is slightly more expensive (34.10) and notably weaker on reliability_score (78.47), cancel_rate (7.17%), and on_time_rate (82.11%).",
+      "vs_cheapest_option": "ep011_vendor_038 is cheapest (31.98) but much slower (39 min) with weak reliability signals (73.3 reliability_score, 10.08% cancel).",
+      "vs_highest_reliability_option": "ep011_vendor_001 has the best reliability (94.81) but costs much more (38.12), making it less balanced on price."
+    }
+  }
+}

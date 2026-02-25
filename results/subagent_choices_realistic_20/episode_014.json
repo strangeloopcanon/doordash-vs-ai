@@ -1,0 +1,19 @@
+{
+  "chosen_vendor_id": "ep014_vendor_073",
+  "chosen_items": [
+    "buffalo_wings",
+    "margherita_pizza"
+  ],
+  "reasoning": "Priority is rating/reliability, and this vendor provides the best overall reliability tradeoff: top reliability_score (88.66), lowest cancel_rate_pct (4.39%) among top reliability contenders, fast ETA (25 min), and reasonable required_total_usd ($30.89) versus similarly reliable alternatives that are slower and/or pricier.",
+  "factors": {
+    "priority_hint": "rating",
+    "required_total_usd": 30.89,
+    "eta_min": 25,
+    "reliability": {
+      "reliability_score": 88.66,
+      "cancel_rate_pct": 4.39,
+      "on_time_rate_pct": 89.72,
+      "rating": 4.74
+    }
+  }
+}

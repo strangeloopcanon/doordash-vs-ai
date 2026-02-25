@@ -1,0 +1,23 @@
+{
+  "chosen_vendor_id": "ep019_vendor_018",
+  "chosen_items": [
+    {
+      "item_id": "pepperoni_pizza",
+      "quantity": 1
+    },
+    {
+      "item_id": "nachos",
+      "quantity": 2
+    }
+  ],
+  "reasoning": "For a rating-priority request, this vendor offers an elite rating (4.82) while also providing the strongest reliability profile and better speed/cost than the highest-rated 4.88 options.",
+  "factors": {
+    "priority": "rating",
+    "rating": 4.82,
+    "required_total_usd": 39.04,
+    "eta_min": 28,
+    "reliability_score": 88.05,
+    "cancel_rate_pct": 5.41,
+    "on_time_rate_pct": 93.53
+  }
+}

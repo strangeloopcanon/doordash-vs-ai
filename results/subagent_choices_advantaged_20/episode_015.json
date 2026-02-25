@@ -1,0 +1,1 @@
+{"chosen_vendor_id": "ep015_vendor_001", "chosen_items": ["buffalo_wings", "quesadilla", "garlic_naan"], "reasoning": "Fast priority: ep015_vendor_001 has lowest ETA (25 min) among all offers. Break ties with cost ($28.80) and reliability (78.55).", "factors": ["eta_min", "required_total_usd", "reliability_score"]}

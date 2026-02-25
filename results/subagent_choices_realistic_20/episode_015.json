@@ -1,0 +1,20 @@
+{
+  "chosen_vendor_id": "ep015_vendor_082",
+  "chosen_items": [
+    "chana_masala",
+    "cheeseburger"
+  ],
+  "reasoning": "With priority_hint='value', ep015_vendor_082 gives the best cost-to-reliability balance: very low required_total_usd ($27.60, near the minimum), acceptable ETA (29 min), and stronger reliability than the slightly cheaper options (86.13 reliability_score, 6.94% cancel_rate_pct, 88.95% on_time_rate_pct, 4.83 rating).",
+  "factors": {
+    "priority_hint": "value",
+    "required_total_usd": 27.6,
+    "eta_min": 29,
+    "reliability": {
+      "reliability_score": 86.13,
+      "cancel_rate_pct": 6.94,
+      "on_time_rate_pct": 88.95,
+      "rating": 4.83
+    },
+    "tradeoff": "Costs only $0.26 more than the cheapest offer while substantially improving reliability metrics."
+  }
+}

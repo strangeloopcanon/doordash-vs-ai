@@ -1,0 +1,27 @@
+{
+  "chosen_vendor_id": "ep018_vendor_090",
+  "chosen_items": [
+    {
+      "item_id": "burrito",
+      "quantity": 1
+    },
+    {
+      "item_id": "pepperoni_pizza",
+      "quantity": 2
+    },
+    {
+      "item_id": "margherita_pizza",
+      "quantity": 1
+    }
+  ],
+  "reasoning": "This vendor has the fastest ETA (27 min, tied for best) and the strongest reliability profile among the fastest options, making it the best speed-optimized choice despite not being the cheapest.",
+  "factors": {
+    "priority": "fast",
+    "eta_min": 27,
+    "required_total_usd": 66.42,
+    "reliability_score": 82.52,
+    "cancel_rate_pct": 6.17,
+    "on_time_rate_pct": 86.29,
+    "rating": 4.83
+  }
+}

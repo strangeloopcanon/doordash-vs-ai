@@ -1,0 +1,18 @@
+{
+  "chosen_vendor_id": "ep015_vendor_082",
+  "chosen_items": [
+    "chana_masala",
+    "cheeseburger"
+  ],
+  "reasoning": "Priority is value, and ep015_vendor_082 is a near-minimum total while offering stronger reliability than the absolute cheapest options with a still-reasonable ETA.",
+  "factors": {
+    "priority_hint": "value",
+    "required_total_usd": 27.6,
+    "eta_min": 29,
+    "reliability_score": 86.13,
+    "cancel_rate_pct": 6.94,
+    "on_time_rate_pct": 88.95,
+    "rating": 4.83,
+    "comparison_note": "It is only $0.26 above the cheapest offer (ep015_vendor_019) but has much stronger reliability (+9.01 reliability_score, lower cancel rate) with just a 3-minute ETA tradeoff."
+  }
+}

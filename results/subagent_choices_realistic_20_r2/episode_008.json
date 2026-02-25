@@ -1,0 +1,18 @@
+{
+  "chosen_vendor_id": "ep008_vendor_076",
+  "chosen_items": [
+    "chicken_tikka",
+    "green_curry"
+  ],
+  "reasoning": "Priority is fast, so ETA is weighted highest. ep008_vendor_076 is tied for the fastest ETA (24 min) and is the strongest option inside that fastest set on reliability while also having one of the lowest totals, making it the best speed-first tradeoff.",
+  "factors": {
+    "priority_hint": "fast",
+    "eta_min": 24,
+    "required_total_usd": 34.18,
+    "reliability_score": 83.01,
+    "cancel_rate_pct": 7.52,
+    "on_time_rate_pct": 90.6,
+    "rating": 4.14,
+    "comparison_note": "Among all 24-minute options, this has the best reliability_score and on_time_rate_pct, the lowest cancel_rate_pct, and the lowest required_total_usd."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "chosen_vendor_id": "ep016_vendor_000",
+  "chosen_items": [
+    "chicken_tikka",
+    "pad_thai"
+  ],
+  "reasoning": "With priority_hint=balanced, ep016_vendor_000 is the best overall tradeoff: it has the lowest required_total_usd while also posting the strongest reliability profile (top reliability_score, top on_time_rate_pct, very high rating, and low cancel_rate_pct). Its ETA is slower than the fastest options, but the cost and quality gains are substantial enough to win a balanced decision.",
+  "factors": {
+    "priority_hint": "balanced",
+    "required_total_usd": 46.5,
+    "eta_min": 36,
+    "reliability_score": 91.8,
+    "cancel_rate_pct": 6.33,
+    "on_time_rate_pct": 97.6,
+    "rating": 4.89,
+    "comparison_note": "Compared with faster ep016_vendor_002 (24 min), this is $3.21 cheaper and materially stronger on quality signals (+7.31 reliability_score, +6.40 on_time_rate_pct, +0.49 rating)."
+  }
+}

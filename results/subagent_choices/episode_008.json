@@ -1,0 +1,17 @@
+{
+  "chosen_vendor_id": "ep008_vendor_020",
+  "chosen_items": {
+    "buffalo_wings": 2,
+    "garlic_naan": 1,
+    "pad_thai": 1
+  },
+  "reasoning": "Priority is speed, and ep008_vendor_020 is tied for the fastest ETA at 15 minutes while also having a higher rating, lower required total, and lower fees than the other 15-minute offer.",
+  "factors": {
+    "priority_hint": "fast",
+    "required_total_usd": 39.98,
+    "eta_min": 15,
+    "rating": 4.45,
+    "delivery_fee_usd": 2.1,
+    "service_fee_pct": 0.94
+  }
+}

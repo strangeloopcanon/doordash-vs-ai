@@ -1,0 +1,20 @@
+{
+  "chosen_vendor_id": "ep019_vendor_063",
+  "chosen_items": [
+    "cheeseburger",
+    "burrito",
+    "chicken_sandwich"
+  ],
+  "reasoning": "Priority is balanced, and ep019_vendor_063 provides the strongest overall tradeoff across all three goals: low required_total_usd (49.63), very fast ETA (26 min), and strong reliability (85.32 reliability_score, 7.34% cancel_rate_pct, 88.75% on_time_rate_pct, 4.77 rating). Cheaper options had materially weaker reliability or slower delivery, while more reliable options were meaningfully pricier and/or slower.",
+  "factors": {
+    "priority_hint": "balanced",
+    "required_total_usd": 49.63,
+    "eta_min": 26,
+    "reliability": {
+      "reliability_score": 85.32,
+      "cancel_rate_pct": 7.34,
+      "on_time_rate_pct": 88.75,
+      "rating": 4.77
+    }
+  }
+}

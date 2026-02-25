@@ -1,0 +1,37 @@
+{
+  "chosen_vendor_id": "ep001_vendor_061",
+  "chosen_items": [
+    {
+      "item": "burrito",
+      "quantity": 2,
+      "unit_price_usd": 10.61
+    },
+    {
+      "item": "chicken_sandwich",
+      "quantity": 1,
+      "unit_price_usd": 10.21
+    },
+    {
+      "item": "nachos",
+      "quantity": 2,
+      "unit_price_usd": 7.96
+    }
+  ],
+  "reasoning": "ep001_vendor_061 gives a strong balance: low total cost (53.98), very fast ETA (29 min), and solid quality signals (rating 4.85, on_time_rate 90.05, reliability_score 81.39) without paying a premium.",
+  "factors": {
+    "priority_hint": "balanced",
+    "cost_speed_quality_tradeoff": "Near-cheapest and near-fastest option while keeping quality metrics strong overall.",
+    "selected_vendor_metrics": {
+      "required_total_usd": 53.98,
+      "eta_min": 29,
+      "reliability_score": 81.39,
+      "cancel_rate_pct": 8.67,
+      "on_time_rate_pct": 90.05,
+      "rating": 4.85
+    },
+    "comparison_notes": {
+      "vs_cheapest_option": "Cheapest total is 51.70 (ep001_vendor_084) but with slower ETA (35) and weaker quality/reliability.",
+      "vs_highest_reliability_option": "Highest reliability_score is 87.58 (ep001_vendor_092) but with higher total (59.14) and slower ETA (35)."
+    }
+  }
+}

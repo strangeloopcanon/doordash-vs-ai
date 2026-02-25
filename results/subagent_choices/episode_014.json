@@ -1,0 +1,16 @@
+{
+  "chosen_vendor_id": "ep014_vendor_090",
+  "chosen_items": {
+    "pepperoni_pizza": 2,
+    "burrito": 2
+  },
+  "reasoning": "This vendor gives the best value by having the lowest required_total_usd, with a solid rating, reasonable ETA, and low delivery/service fees.",
+  "factors": {
+    "priority_hint": "value",
+    "required_total_usd": 49.89,
+    "eta_min": 28,
+    "rating": 4.05,
+    "delivery_fee_usd": 2.41,
+    "service_fee_pct": 0.55
+  }
+}

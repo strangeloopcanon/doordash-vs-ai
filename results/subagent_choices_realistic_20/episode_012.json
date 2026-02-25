@@ -1,0 +1,19 @@
+{
+  "chosen_vendor_id": "ep012_vendor_043",
+  "chosen_items": [
+    "chana_masala",
+    "margherita_pizza"
+  ],
+  "reasoning": "Priority is balanced, and this vendor offers a strong middle ground: low total cost ($44.71), fast ETA (26 min), and high reliability (88.27 reliability score, 5.81% cancel rate, 90.32% on-time, 4.88 rating). It avoids the slow ETAs of the very cheapest options and avoids the higher prices of the very fastest high-reliability options.",
+  "factors": {
+    "priority_hint": "balanced",
+    "required_total_usd": 44.71,
+    "eta_min": 26,
+    "reliability": {
+      "reliability_score": 88.27,
+      "cancel_rate_pct": 5.81,
+      "on_time_rate_pct": 90.32,
+      "rating": 4.88
+    }
+  }
+}

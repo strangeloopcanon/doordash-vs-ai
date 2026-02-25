@@ -1,0 +1,19 @@
+{
+  "chosen_vendor_id": "ep020_vendor_048",
+  "chosen_items": [
+    "spaghetti_bolognese",
+    "fettuccine_alfredo",
+    "chicken_tikka"
+  ],
+  "reasoning": "With priority_hint=fast, ep020_vendor_048 is the best pick because it is tied for the fastest ETA (23 min) while also having the strongest reliability profile and near-minimum total among the fastest options.",
+  "factors": {
+    "priority_hint": "fast",
+    "required_total_usd": 49.49,
+    "eta_min": 23,
+    "reliability_score": 87.47,
+    "cancel_rate_pct": 7.31,
+    "on_time_rate_pct": 92.51,
+    "rating": 4.78,
+    "comparison_note": "Versus the other 23-minute options, it is strongest overall; compared with ep020_vendor_074 (also 23 min), it is $0.01 cheaper and materially better on reliability (+6.96), on-time rate (+6.43), and rating (+0.64)."
+  }
+}

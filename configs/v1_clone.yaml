@@ -1,0 +1,64 @@
+seed: 20260224
+market_profile: clone_v1
+
+num_episodes: 100
+vendors_per_episode: 100
+
+dominated_episodes: 10
+near_tie_episodes: 30
+exact_tie_episodes: 30
+dd_advantaged_episodes: 20
+competitive_episodes: 10
+
+model: gpt-5.2
+batch_size: 4
+max_retries: 3
+retry_backoff_seconds: 1.5
+max_output_tokens: 700
+
+random_equation_samples: 100
+
+menus:
+  doordash_items: 18
+  synthetic_items_min: 10
+  synthetic_items_max: 14
+  synthetic_cheaper_ratio: 0.35
+  synthetic_include_all_required: false
+  synthetic_required_item_prob: 0.80
+
+ranges:
+  rating_min: 3.4
+  rating_max: 4.9
+  eta_min: 20
+  eta_max: 44
+  delivery_fee_min: 1.49
+  delivery_fee_max: 5.49
+  service_fee_pct_min: 3.0
+  service_fee_pct_max: 12.0
+
+dispersion:
+  total_ratio_min: 1.10
+  total_ratio_max: 1.25
+  eta_range_min: 8
+  eta_range_max: 20
+
+relationship_thresholds:
+  dominated_total_delta: 0.6
+  dominated_eta_delta: 4
+  near_tie_total_abs: 0.3
+  near_tie_eta_abs: 2
+  exact_tie_total_abs: 0.10
+  exact_tie_eta_abs: 1
+  exact_tie_min_clones: 3
+  dd_advantaged_top_n: 5
+  competitive_total_gap: 0.8
+  competitive_eta_gap: 3
+
+feasible_vendors_min: 40
+feasible_vendors_max: 80
+
+priority_hints:
+  - value
+  - fast
+  - rating
+  - balanced

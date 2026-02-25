@@ -1,0 +1,17 @@
+{
+  "chosen_vendor_id": "ep002_vendor_070",
+  "chosen_items": [
+    "saag_paneer",
+    "garlic_naan"
+  ],
+  "reasoning": "Priority is value, so total cost leads while ETA and reliability break ties. ep002_vendor_070 has a near-minimum total ($20.86) with solid ETA (30 min) and clearly stronger reliability signals (85.45 reliability_score, 6.84% cancel rate, 88.44% on-time, 4.73 rating) than the absolute cheapest option.",
+  "factors": {
+    "priority_hint": "value",
+    "required_total_usd": 20.86,
+    "eta_min": 30,
+    "reliability_score": 85.45,
+    "cancel_rate_pct": 6.84,
+    "on_time_rate_pct": 88.44,
+    "rating": 4.73
+  }
+}

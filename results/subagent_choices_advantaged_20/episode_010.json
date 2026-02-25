@@ -1,0 +1,1 @@
+{"chosen_vendor_id": "ep010_vendor_094", "chosen_items": ["chicken_sandwich", "nachos"], "reasoning": "Fast priority: ep010_vendor_094 has lowest ETA (24 min). Among eta=24 vendors, has lowest cost ($23.72) and strong reliability (83.28). Chosen for speed with cost tiebreak.", "factors": ["eta_min", "total_cost", "reliability_score"]}

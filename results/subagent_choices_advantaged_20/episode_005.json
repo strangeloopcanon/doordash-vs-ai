@@ -1,0 +1,1 @@
+{"chosen_vendor_id": "ep005_vendor_069", "chosen_items": ["spaghetti_bolognese", "green_curry"], "reasoning": "Priority 'balanced': RocketRunner069 has lowest cost ($57.30) with strong reliability (81.48), low cancel (5.34%), and solid on_time (86.12%).", "factors": ["required_total_usd", "reliability_score", "cancel_rate_pct", "on_time_rate_pct"]}

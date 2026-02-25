@@ -1,0 +1,31 @@
+{
+  "chosen_vendor_id": "ep015_vendor_049",
+  "chosen_items": [
+    {
+      "item": "quesadilla",
+      "quantity": 1,
+      "unit_price_usd": 9.22
+    },
+    {
+      "item": "chana_masala",
+      "quantity": 1,
+      "unit_price_usd": 12.3
+    }
+  ],
+  "reasoning": "Selected ep015_vendor_049 as the most reliable overall choice: it has the strongest reliability profile in the set (highest reliability score, lowest cancel rate, highest on-time rate) while still keeping a high rating and acceptable cost/ETA.",
+  "factors": {
+    "priority_hint": "rating",
+    "selected_vendor_metrics": {
+      "required_total_usd": 27.2,
+      "eta_min": 29,
+      "reliability_score": 91.04,
+      "cancel_rate_pct": 3.84,
+      "on_time_rate_pct": 94.9,
+      "rating": 4.79
+    },
+    "comparison_notes": {
+      "vs_best_rating_only": "ep015_vendor_015 has a slightly higher rating (4.88) but materially weaker reliability (78.46 score, 8.55% cancel, 84.95% on-time).",
+      "vs_faster_reliable_option": "ep015_vendor_006 is faster (23 min) and cheaper (26.09) but has notably weaker reliability (86.12 score, 5.22% cancel, 90.89% on-time)."
+    }
+  }
+}

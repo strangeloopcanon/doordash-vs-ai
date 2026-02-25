@@ -1,0 +1,1 @@
+{"chosen_vendor_id": "ep012_vendor_033", "chosen_items": ["spaghetti_bolognese", "cheeseburger"], "reasoning": "Value priority: ep012_vendor_033 has lowest total cost ($54.84) among all offers, with acceptable reliability (77.02) and on_time_rate (82.34%).", "factors": ["required_total_usd", "eta_min", "reliability_score"]}

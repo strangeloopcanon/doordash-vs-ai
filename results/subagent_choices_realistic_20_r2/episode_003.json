@@ -1,0 +1,18 @@
+{
+  "chosen_vendor_id": "ep003_vendor_087",
+  "chosen_items": [
+    "quesadilla",
+    "cheeseburger"
+  ],
+  "reasoning": "Priority is fast, so ETA is weighted highest, but cost and reliability still matter. ep003_vendor_087 is just 1 minute slower than the fastest 24-minute options while being materially cheaper and more reliable, giving the best speed-first overall tradeoff.",
+  "factors": {
+    "priority_hint": "fast",
+    "required_total_usd": 24.13,
+    "eta_min": 25,
+    "reliability_score": 86.13,
+    "cancel_rate_pct": 7.67,
+    "on_time_rate_pct": 89.82,
+    "rating": 4.88,
+    "comparison_note": "Versus the best 24-minute offer (ep003_vendor_049), this is +1 min ETA, -$2.09 total, and +4.56 reliability score."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "chosen_vendor_id": "ep019_vendor_089",
+  "chosen_items": {
+    "buffalo_wings": 2,
+    "burrito": 1
+  },
+  "reasoning": "The request prioritizes speed, and ep019_vendor_089 has the fastest ETA at 16 minutes. It also has a strong 4.56 rating, and while its total and fees are not the cheapest, they are reasonable tradeoffs to maximize delivery speed.",
+  "factors": {
+    "priority_hint": "fast",
+    "required_total_usd": 41.62,
+    "eta_min": 16,
+    "rating": 4.56,
+    "delivery_fee_usd": 5.56,
+    "service_fee_pct": 7.31
+  }
+}

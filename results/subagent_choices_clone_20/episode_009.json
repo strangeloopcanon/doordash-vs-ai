@@ -1,0 +1,47 @@
+{
+  "chosen_vendor_id": "ep009_vendor_032",
+  "chosen_items": [
+    {
+      "item": "margherita_pizza",
+      "quantity": 2,
+      "unit_price_usd": 15.37
+    },
+    {
+      "item": "cheeseburger",
+      "quantity": 1,
+      "unit_price_usd": 12.55
+    }
+  ],
+  "reasoning": "Priority is fast, so I selected a minimum-ETA vendor (22 min) and broke the tie with reliability signals; this cart has the strongest reliability profile among the 22-minute options with only a small cost premium.",
+  "factors": {
+    "priority_hint": "fast",
+    "selected_vendor_metrics": {
+      "eta_min": 22,
+      "required_total_usd": 48.73,
+      "reliability_score": 81.25,
+      "cancel_rate_pct": 6.46,
+      "on_time_rate_pct": 84.95,
+      "rating": 4.81
+    },
+    "comparison_notes": {
+      "other_22_min_options": [
+        {
+          "vendor_id": "ep009_vendor_027",
+          "required_total_usd": 47.23,
+          "reliability_score": 77.31,
+          "cancel_rate_pct": 6.52,
+          "on_time_rate_pct": 81.1,
+          "rating": 4.08
+        },
+        {
+          "vendor_id": "ep009_vendor_083",
+          "required_total_usd": 48.79,
+          "reliability_score": 78.33,
+          "cancel_rate_pct": 8.45,
+          "on_time_rate_pct": 85.74,
+          "rating": 4.5
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "chosen_vendor_id": "ep012_vendor_046",
+  "chosen_items": [
+    {
+      "item": "drunken_noodles",
+      "quantity": 1,
+      "unit_price_usd": 13.89
+    },
+    {
+      "item": "chana_masala",
+      "quantity": 2,
+      "unit_price_usd": 12.24
+    }
+  ],
+  "reasoning": "Priority is fast, so I limited the decision to minimum-ETA vendors (22 min). Between those, ep012_vendor_046 offers the better overall tradeoff with a lower total cost, lower cancel rate, and higher rating, while giving up only a very small reliability_score edge and on-time advantage to the other 22-minute option.",
+  "factors": {
+    "priority_hint": "fast",
+    "selected_vendor_metrics": {
+      "eta_min": 22,
+      "required_total_usd": 45.14,
+      "reliability_score": 76.86,
+      "cancel_rate_pct": 6.89,
+      "on_time_rate_pct": 80.27,
+      "rating": 4.37
+    },
+    "comparison_notes": {
+      "other_min_eta_option": {
+        "vendor_id": "ep012_vendor_057",
+        "eta_min": 22,
+        "required_total_usd": 45.45,
+        "reliability_score": 77.31,
+        "cancel_rate_pct": 8.51,
+        "on_time_rate_pct": 85.24,
+        "rating": 4.19
+      }
+    }
+  }
+}

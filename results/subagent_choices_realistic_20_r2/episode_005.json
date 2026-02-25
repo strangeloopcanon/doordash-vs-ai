@@ -1,0 +1,17 @@
+{
+  "chosen_vendor_id": "ep005_vendor_077",
+  "chosen_items": [
+    "chana_masala",
+    "spring_rolls"
+  ],
+  "reasoning": "Balanced priority favors a strong blend of low total cost, fast ETA, and dependable execution. ep005_vendor_077 combines a low required_total_usd (22.38), very fast ETA (25 min), and strong reliability signals (86.30 reliability_score, 6.96% cancel rate, 89.74% on-time, 4.78 rating), giving the best overall balance.",
+  "factors": {
+    "priority_hint": "balanced",
+    "required_total_usd": 22.38,
+    "eta_min": 25,
+    "reliability_score": 86.3,
+    "cancel_rate_pct": 6.96,
+    "on_time_rate_pct": 89.74,
+    "rating": 4.78
+  }
+}

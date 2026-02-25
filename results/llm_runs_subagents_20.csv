@@ -1,0 +1,185 @@
+episode_id,scenario_type,priority_hint,chosen_vendor_id,chosen_vendor_name,is_doordash_choice,parse_ok,feasible_choice,est_subtotal_usd,rationale,factors_json,tokens_in,tokens_out,latency_ms,error,raw_output
+episode_001,dominated,value,ep001_vendor_001,NoshNow001,False,True,True,16.1,Best value overall: lowest required total by a wide margin with solid rating and reasonable ETA plus low fees.,"[""lowest required_total_usd ($18.73)"", ""good eta_min (24)"", ""strong rating (4.4)"", ""low delivery fee ($2.15)"", ""low service fee (3.0%)""]",0,0,0,,"{""chosen_vendor_id"":""ep001_vendor_001"",""chosen_items"":[""margherita_pizza"",""spring_rolls""],""reasoning"":""Best value overall: lowest required total by a wide margin with solid rating and reasonable ETA plus low fees."",""factors"":[""lowest required_total_usd ($18.73)"",""good eta_min (24)"",""strong rating (4.4)"",""low delivery fee ($2.15)"",""low service fee (3.0%)""]}"
+episode_002,dominated,fast,ep002_vendor_058,DashHub058,False,True,True,21.14,Priority is fastest delivery; this vendor ties for best ETA (15 min) while offering much higher rating and lower total cost than the other 15-minute option.,"[""lowest ETA (15 min)"", ""high rating (4.81)"", ""lower required_total_usd (26.59) at same ETA"", ""lower delivery fee than peer fast option""]",0,0,0,,"{""chosen_vendor_id"":""ep002_vendor_058"",""chosen_items"":[""chicken_sandwich"",""quesadilla""],""reasoning"":""Priority is fastest delivery; this vendor ties for best ETA (15 min) while offering much higher rating and lower total cost than the other 15-minute option."",""factors"":[""lowest ETA (15 min)"",""high rating (4.81)"",""lower required_total_usd (26.59) at same ETA"",""lower delivery fee than peer fast option""]}"
+episode_003,dominated,balanced,ep003_vendor_001,GoRunner001,False,True,True,43.99,"Best balanced option across price, speed, quality, and fees.","[""Low required_total_usd (46.38)"", ""Fast eta_min (27)"", ""High rating (4.51)"", ""Low delivery fee (1.66) and service fee (1.65%)""]",0,0,0,,"{""chosen_vendor_id"":""ep003_vendor_001"",""chosen_items"":[""quesadilla"",""spaghetti_bolognese"",""cheeseburger""],""reasoning"":""Best balanced option across price, speed, quality, and fees."",""factors"":[""Low required_total_usd (46.38)"",""Fast eta_min (27)"",""High rating (4.51)"",""Low delivery fee (1.66) and service fee (1.65%)""]}"
+episode_004,dominated,fast,ep004_vendor_086,QuickMeals086,False,True,True,22.92,Best speed-focused choice: near-fastest ETA (16 min) with top rating and low total/fees versus other similarly fast options.,"[""ETA 16 min aligns with fast priority"", ""Rating 4.88 is highest among fast contenders"", ""Required total $27.11 beats most similarly fast offers"", ""Low delivery fee $1.88 keeps fees reasonable""]",0,0,0,,"{""chosen_vendor_id"":""ep004_vendor_086"",""chosen_items"":[""margherita_pizza"",""nachos""],""reasoning"":""Best speed-focused choice: near-fastest ETA (16 min) with top rating and low total/fees versus other similarly fast options."",""factors"":[""ETA 16 min aligns with fast priority"",""Rating 4.88 is highest among fast contenders"",""Required total $27.11 beats most similarly fast offers"",""Low delivery fee $1.88 keeps fees reasonable""]}"
+episode_005,dominated,balanced,ep005_vendor_001,SwiftHub001,False,True,True,23.52,"Best balanced choice by combining the lowest total cost with a fast ETA, top rating, and low fees.","[""lowest required_total_usd ($25.85)"", ""fast eta_min (24)"", ""highest rating (4.89)"", ""low delivery fee ($0.99)"", ""low service fee (5.71%)""]",0,0,0,,"{""chosen_vendor_id"":""ep005_vendor_001"",""chosen_items"":[""cheeseburger"",""quesadilla"",""chana_masala""],""reasoning"":""Best balanced choice by combining the lowest total cost with a fast ETA, top rating, and low fees."",""factors"":[""lowest required_total_usd ($25.85)"",""fast eta_min (24)"",""highest rating (4.89)"",""low delivery fee ($0.99)"",""low service fee (5.71%)""]}"
+episode_006,dominated,fast,ep006_vendor_023,DashCart023,False,True,True,21.0,"Speed is the top priority, and this vendor is tied for the fastest ETA while keeping total cost and fees lower than the other 15-minute option.","[""fastest ETA tier (15 min)"", ""lower required_total_usd ($27.02) vs the other 15-min offer"", ""lower delivery fee ($5.01)"", ""much lower service fee (4.81%)"", ""includes all required items""]",0,0,0,,"{""chosen_vendor_id"":""ep006_vendor_023"",""chosen_items"":[""fries"",""pepperoni_pizza""],""reasoning"":""Speed is the top priority, and this vendor is tied for the fastest ETA while keeping total cost and fees lower than the other 15-minute option."",""factors"":[""fastest ETA tier (15 min)"",""lower required_total_usd ($27.02) vs the other 15-min offer"",""lower delivery fee ($5.01)"",""much lower service fee (4.81%)"",""includes all required items""]}"
+episode_007,dominated,value,ep007_vendor_001,BlinkCart001,False,True,True,21.49,"Best value choice: lowest required total while still offering fast delivery, excellent rating, and low fees.","[""Lowest required total among offers at $23.58"", ""Fast ETA at 21 minutes"", ""High rating of 4.86"", ""Low delivery fee ($1.78) and very low service fee (1.46%)""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep007_vendor_001"",
+  ""chosen_items"": [
+    ""chana_masala"",
+    ""spaghetti_bolognese""
+  ],
+  ""reasoning"": ""Best value choice: lowest required total while still offering fast delivery, excellent rating, and low fees."",
+  ""factors"": [
+    ""Lowest required total among offers at $23.58"",
+    ""Fast ETA at 21 minutes"",
+    ""High rating of 4.86"",
+    ""Low delivery fee ($1.78) and very low service fee (1.46%)""
+  ]
+}"
+episode_008,dominated,fast,ep008_vendor_020,GoExpress020,False,True,True,37.53,"Priority is speed, and ep008_vendor_020 is tied for the fastest ETA at 15 minutes while also having a higher rating, lower required total, and lower fees than the other 15-minute offer.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""rating"", ""delivery_fee_usd"", ""service_fee_pct""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep008_vendor_020"",
+  ""chosen_items"": {
+    ""buffalo_wings"": 2,
+    ""garlic_naan"": 1,
+    ""pad_thai"": 1
+  },
+  ""reasoning"": ""Priority is speed, and ep008_vendor_020 is tied for the fastest ETA at 15 minutes while also having a higher rating, lower required total, and lower fees than the other 15-minute offer."",
+  ""factors"": {
+    ""priority_hint"": ""fast"",
+    ""required_total_usd"": 39.98,
+    ""eta_min"": 15,
+    ""rating"": 4.45,
+    ""delivery_fee_usd"": 2.1,
+    ""service_fee_pct"": 0.94
+  }
+}"
+episode_009,dominated,rating,ep009_vendor_002,CityHub002,False,True,True,68.62,"Priority is reliability (rating), so I selected the highest-rated offer; ep009_vendor_002 has the top rating, and while ETA is longer, its total cost and fees remain reasonable for the strongest reliability signal.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""rating"", ""delivery_fee_usd"", ""service_fee_pct""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep009_vendor_002"",
+  ""chosen_items"": {
+    ""green_curry"": 2,
+    ""chicken_sandwich"": 2,
+    ""nachos"": 2
+  },
+  ""reasoning"": ""Priority is reliability (rating), so I selected the highest-rated offer; ep009_vendor_002 has the top rating, and while ETA is longer, its total cost and fees remain reasonable for the strongest reliability signal."",
+  ""factors"": {
+    ""priority_hint"": ""rating"",
+    ""required_total_usd"": 77.5,
+    ""eta_min"": 57,
+    ""rating"": 4.89,
+    ""delivery_fee_usd"": 6.11,
+    ""service_fee_pct"": 4.04
+  }
+}"
+episode_010,dominated,rating,ep010_vendor_028,FeastCart028,False,True,True,38.24,"The request prioritizes reliability (rating), and ep010_vendor_028 has the highest rating (4.9). While its ETA, total, and fees are not the lowest, they are acceptable tradeoffs for selecting the top-rated option.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""rating"", ""delivery_fee_usd"", ""service_fee_pct""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep010_vendor_028"",
+  ""chosen_items"": {
+    ""saag_paneer"": 1,
+    ""fettuccine_alfredo"": 1,
+    ""chana_masala"": 1
+  },
+  ""reasoning"": ""The request prioritizes reliability (rating), and ep010_vendor_028 has the highest rating (4.9). While its ETA, total, and fees are not the lowest, they are acceptable tradeoffs for selecting the top-rated option."",
+  ""factors"": {
+    ""priority_hint"": ""rating"",
+    ""required_total_usd"": 50.54,
+    ""eta_min"": 58,
+    ""rating"": 4.9,
+    ""delivery_fee_usd"": 8.73,
+    ""service_fee_pct"": 9.34
+  }
+}"
+episode_011,near_tie,fast,ep011_vendor_021,FeastFleet021,False,True,True,27.49,"Speed is the priority, and this vendor keeps ETA near-fastest at 17 minutes while offering a better overall tradeoff on total and fees than other ultra-fast options.","[""eta_min: 17 (only +2 vs fastest 15)"", ""required_total_usd: 33.22 (much lower than the 15-min high-rated option at 39.68)"", ""rating: 3.67 (higher than the cheaper 15-min option at 3.23)"", ""fees: delivery_fee_usd 3.81 and service_fee_pct 7.0 are moderate for a fast order""]",0,0,0,,"{""chosen_vendor_id"":""ep011_vendor_021"",""chosen_items"":[""chana_masala"",""chicken_tikka""],""reasoning"":""Speed is the priority, and this vendor keeps ETA near-fastest at 17 minutes while offering a better overall tradeoff on total and fees than other ultra-fast options."",""factors"":[""eta_min: 17 (only +2 vs fastest 15)"",""required_total_usd: 33.22 (much lower than the 15-min high-rated option at 39.68)"",""rating: 3.67 (higher than the cheaper 15-min option at 3.23)"",""fees: delivery_fee_usd 3.81 and service_fee_pct 7.0 are moderate for a fast order""]}"
+episode_012,near_tie,value,ep012_vendor_053,PrimeExpress053,False,True,True,23.83,"Best value overall: it has the lowest required_total_usd while still offering a high rating, acceptable ETA, and very low delivery/service fees.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""rating"", ""delivery_fee_usd"", ""service_fee_pct""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep012_vendor_053"",
+  ""chosen_items"": {
+    ""chicken_tikka"": 1,
+    ""fries"": 2
+  },
+  ""reasoning"": ""Best value overall: it has the lowest required_total_usd while still offering a high rating, acceptable ETA, and very low delivery/service fees."",
+  ""factors"": {
+    ""priority_hint"": ""value"",
+    ""required_total_usd"": 25.24,
+    ""eta_min"": 30,
+    ""rating"": 4.77,
+    ""delivery_fee_usd"": 1.31,
+    ""service_fee_pct"": 0.43
+  }
+}"
+episode_013,near_tie,balanced,ep013_vendor_027,DashCart027,False,True,True,36.45,"This vendor gives the best balanced tradeoff: lowest total cost, high rating, reasonable ETA, and low delivery/service fees without a major weakness in any priority area.","[""required_total_usd"", ""eta_min"", ""rating"", ""delivery_fee_usd"", ""service_fee_pct""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep013_vendor_027"",
+  ""chosen_items"": {
+    ""margherita_pizza"": 2,
+    ""tacos"": 1
+  },
+  ""reasoning"": ""This vendor gives the best balanced tradeoff: lowest total cost, high rating, reasonable ETA, and low delivery/service fees without a major weakness in any priority area."",
+  ""factors"": {
+    ""required_total_usd"": 40.17,
+    ""eta_min"": 34,
+    ""rating"": 4.72,
+    ""delivery_fee_usd"": 2.02,
+    ""service_fee_pct"": 4.66
+  }
+}"
+episode_014,near_tie,value,ep014_vendor_090,FeastNow090,False,True,True,47.22,"This vendor gives the best value by having the lowest required_total_usd, with a solid rating, reasonable ETA, and low delivery/service fees.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""rating"", ""delivery_fee_usd"", ""service_fee_pct""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep014_vendor_090"",
+  ""chosen_items"": {
+    ""pepperoni_pizza"": 2,
+    ""burrito"": 2
+  },
+  ""reasoning"": ""This vendor gives the best value by having the lowest required_total_usd, with a solid rating, reasonable ETA, and low delivery/service fees."",
+  ""factors"": {
+    ""priority_hint"": ""value"",
+    ""required_total_usd"": 49.89,
+    ""eta_min"": 28,
+    ""rating"": 4.05,
+    ""delivery_fee_usd"": 2.41,
+    ""service_fee_pct"": 0.55
+  }
+}"
+episode_015,near_tie,value,ep015_vendor_009,DashBite009,False,True,True,37.47,"Best value choice: it has the lowest required_total_usd while keeping a solid rating, reasonable ETA, and very low fees.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""rating"", ""delivery_fee_usd"", ""service_fee_pct""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep015_vendor_009"",
+  ""chosen_items"": {
+    ""chicken_sandwich"": 1,
+    ""fettuccine_alfredo"": 1,
+    ""saag_paneer"": 1
+  },
+  ""reasoning"": ""Best value choice: it has the lowest required_total_usd while keeping a solid rating, reasonable ETA, and very low fees."",
+  ""factors"": {
+    ""priority_hint"": ""value"",
+    ""required_total_usd"": 39.77,
+    ""eta_min"": 40,
+    ""rating"": 4.05,
+    ""delivery_fee_usd"": 2.01,
+    ""service_fee_pct"": 0.77
+  }
+}"
+episode_016,competitive,rating,ep016_vendor_066,SwiftFleet066,False,True,True,25.72,"Given priority on rating for reliability, ep016_vendor_066 is the best overall choice: it has an elite 4.85 rating while also offering a lower required total, shorter ETA, and lower fees than other similarly rated options.","[""rating"", ""eta_min"", ""required_total_usd"", ""delivery_fee_usd"", ""service_fee_pct""]",0,0,0,,"{""chosen_vendor_id"":""ep016_vendor_066"",""chosen_items"":[""pepperoni_pizza"",""pad_thai""],""reasoning"":""Given priority on rating for reliability, ep016_vendor_066 is the best overall choice: it has an elite 4.85 rating while also offering a lower required total, shorter ETA, and lower fees than other similarly rated options."",""factors"":{""rating"":4.85,""eta_min"":54,""required_total_usd"":27.59,""delivery_fee_usd"":0.99,""service_fee_pct"":3.43}}"
+episode_017,competitive,balanced,ep017_vendor_069,DashFleet069,False,True,True,23.17,"For a balanced choice, this offer gives the best overall mix: top rating and fastest ETA while keeping the total cost and fees reasonable rather than premium.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""rating"", ""delivery_fee_usd"", ""service_fee_pct""]",0,0,0,,"{""chosen_vendor_id"":""ep017_vendor_069"",""chosen_items"":{""chicken_tikka"":1,""fries"":2},""reasoning"":""For a balanced choice, this offer gives the best overall mix: top rating and fastest ETA while keeping the total cost and fees reasonable rather than premium."",""factors"":{""priority_hint"":""balanced"",""required_total_usd"":27.74,""eta_min"":15,""rating"":4.89,""delivery_fee_usd"":4.25,""service_fee_pct"":1.36}}"
+episode_018,competitive,balanced,ep018_vendor_038,QuickExpress038,False,True,True,42.5,"ep018_vendor_038 offers the best balanced tradeoff across cost, speed, and quality: one of the very lowest required totals, a fast ETA, strong rating, and very low service fee.","[""required_total_usd"", ""eta_min"", ""rating"", ""delivery_fee_usd"", ""service_fee_pct""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep018_vendor_038"",
+  ""chosen_items"": [
+    ""nachos"",
+    ""pad_thai""
+  ],
+  ""reasoning"": ""ep018_vendor_038 offers the best balanced tradeoff across cost, speed, and quality: one of the very lowest required totals, a fast ETA, strong rating, and very low service fee."",
+  ""factors"": {
+    ""required_total_usd"": 47.37,
+    ""eta_min"": 21,
+    ""rating"": 4.48,
+    ""delivery_fee_usd"": 4.67,
+    ""service_fee_pct"": 0.46
+  }
+}"
+episode_019,competitive,fast,ep019_vendor_089,SwiftDrop089,False,True,True,33.6,"The request prioritizes speed, and ep019_vendor_089 has the fastest ETA at 16 minutes. It also has a strong 4.56 rating, and while its total and fees are not the cheapest, they are reasonable tradeoffs to maximize delivery speed.","[""priority_hint"", ""required_total_usd"", ""eta_min"", ""rating"", ""delivery_fee_usd"", ""service_fee_pct""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep019_vendor_089"",
+  ""chosen_items"": {
+    ""buffalo_wings"": 2,
+    ""burrito"": 1
+  },
+  ""reasoning"": ""The request prioritizes speed, and ep019_vendor_089 has the fastest ETA at 16 minutes. It also has a strong 4.56 rating, and while its total and fees are not the cheapest, they are reasonable tradeoffs to maximize delivery speed."",
+  ""factors"": {
+    ""priority_hint"": ""fast"",
+    ""required_total_usd"": 41.62,
+    ""eta_min"": 16,
+    ""rating"": 4.56,
+    ""delivery_fee_usd"": 5.56,
+    ""service_fee_pct"": 7.31
+  }
+}"
+episode_020,competitive,fast,ep020_vendor_058,SwiftLane058,False,True,True,20.59,"Priority is speed, and ep020_vendor_058 has the fastest ETA at 15 minutes while still maintaining a solid 4.14 rating and acceptable fees.","[""required_total_usd"", ""eta_min"", ""rating"", ""delivery_fee_usd"", ""service_fee_pct""]",0,0,0,,"{
+  ""chosen_vendor_id"": ""ep020_vendor_058"",
+  ""chosen_items"": [
+    ""spring_rolls"",
+    ""green_curry""
+  ],
+  ""reasoning"": ""Priority is speed, and ep020_vendor_058 has the fastest ETA at 15 minutes while still maintaining a solid 4.14 rating and acceptable fees."",
+  ""factors"": {
+    ""required_total_usd"": 27.03,
+    ""eta_min"": 15,
+    ""rating"": 4.14,
+    ""delivery_fee_usd"": 4.22,
+    ""service_fee_pct"": 10.78
+  }
+}"

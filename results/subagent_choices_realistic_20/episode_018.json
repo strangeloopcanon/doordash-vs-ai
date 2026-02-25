@@ -1,0 +1,17 @@
+{
+  "chosen_vendor_id": "ep018_vendor_075",
+  "chosen_items": [
+    "fries",
+    "pad_thai"
+  ],
+  "reasoning": "Selected ep018_vendor_075 because the request asks for the most reliable option with priority_hint=rating, and this offer gives the best balance: elite rating (4.85), very strong reliability_score (87.56), low cancel_rate_pct (5.19), and the fastest ETA (24 min) among top-rated reliable candidates, while keeping total cost reasonable at $21.31.",
+  "factors": {
+    "priority_hint": "rating",
+    "required_total_usd": 21.31,
+    "eta_min": 24,
+    "rating": 4.85,
+    "reliability_score": 87.56,
+    "cancel_rate_pct": 5.19,
+    "on_time_rate_pct": 88.19
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "chosen_vendor_id": "ep008_vendor_044",
+  "chosen_items": [
+    {
+      "item": "pad_thai",
+      "quantity": 1,
+      "unit_price_usd": 14.33
+    },
+    {
+      "item": "burrito",
+      "quantity": 1,
+      "unit_price_usd": 10.46
+    }
+  ],
+  "reasoning": "Speed was prioritized, and among the fastest options (27 min ETA), this vendor had the strongest reliability profile by a wide margin while keeping total cost competitive.",
+  "factors": {
+    "priority_hint": "fast",
+    "selected_vendor_metrics": {
+      "required_total_usd": 29.33,
+      "eta_min": 27,
+      "reliability_score": 91.37,
+      "cancel_rate_pct": 1.92,
+      "on_time_rate_pct": 91.96,
+      "rating": 4.52
+    },
+    "comparison_notes": {
+      "vs_fastest_cheaper_option": "ep008_vendor_045 is also 27 min and cheaper (27.73) but materially less reliable (72.27 reliability, 10.36% cancel).",
+      "vs_fastest_close_competitor": "ep008_vendor_025 is also 27 min and slightly cheaper (28.99) but has lower reliability (83.18) and higher cancel rate (5.64%)."
+    }
+  }
+}

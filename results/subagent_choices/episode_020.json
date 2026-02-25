@@ -1,0 +1,15 @@
+{
+  "chosen_vendor_id": "ep020_vendor_058",
+  "chosen_items": [
+    "spring_rolls",
+    "green_curry"
+  ],
+  "reasoning": "Priority is speed, and ep020_vendor_058 has the fastest ETA at 15 minutes while still maintaining a solid 4.14 rating and acceptable fees.",
+  "factors": {
+    "required_total_usd": 27.03,
+    "eta_min": 15,
+    "rating": 4.14,
+    "delivery_fee_usd": 4.22,
+    "service_fee_pct": 10.78
+  }
+}
