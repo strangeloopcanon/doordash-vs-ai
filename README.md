@@ -2,18 +2,18 @@
 
 In a world where AI makes it trivial to spin up functional DoorDash clones, does the DoorDash brand give it any selection advantage when an LLM agent chooses on behalf of users?
 
-**Short answer: No.** Across ~80 LLM decisions spanning three experiments, the DoorDash brand provided zero measurable selection premium. Even when DoorDash was objectively one of the best options, the LLM treated it as just another vendor.
+**Short answer: No.** Across 120 LLM decisions spanning six runs, the DoorDash brand provided zero measurable selection premium. The LLM picked DoorDash exactly twice -- both times because it was the cheapest option, not because of the name.
 
 ## Summary
 
-| | DoorDash mediocre | DoorDash competitive | DoorDash tied with clones |
-| :--- | :---: | :---: | :---: |
-| **Scenario** | Mid-pack on cost/speed | Top 2-5 by utility | Identical metrics to 3-5 clones |
-| **LLM picked DoorDash** | 0% (0/20) | 0% (0/6) | 0% (0/8) |
-| **Equation picked DoorDash** | 5% | 0% | 0% |
-| **Brand premium** | None | None | None |
-| | | | |
-| **What the LLM actually did** | Picked cheapest+fastest | Picked marginally better clone | Picked a random tied clone |
+| | DoorDash mediocre | DoorDash cheapest | DoorDash competitive | DoorDash tied |
+| :--- | :---: | :---: | :---: | :---: |
+| **Setup** | Mid-pack on cost/speed | Happens to be lowest price | Top 2-5 by utility | Identical metrics to clones |
+| **LLM picked DoorDash** | 0/20 | 1/20 | 0/6 | 0/8 |
+| **Why** | Better clones exist | It was objectively cheapest | Picked marginally better clone | Picked a random tied clone |
+| **Brand effect?** | No | No (metric-driven) | No | No |
+
+**Overall: 2/120 (1.7%).** Both DoorDash picks were in the same episode across two independent runs -- the one episode where DoorDash had the lowest price. The LLM's rationale explicitly cited "lowest required_total_usd." When DoorDash wasn't the best on metrics, the brand name carried zero weight.
 
 > **Bottom line:** An LLM choosing between DoorDash and 99 functional clones treats brand as a zero-weight variable. The moat, if any, has to be in data or reliability -- not the name.
 
@@ -40,12 +40,15 @@ Same setup, two repeat runs. Added explicit reliability signals (`reliability_sc
 
 | Selector | DoorDash chosen |
 | --- | --- |
-| LLM (pooled, 2 runs) | **2/40 (5.0%)** |
+| LLM run 1 | **1/20 (5.0%)** |
+| LLM run 2 | **1/20 (5.0%)** |
 | `balanced_equation` | 1/20 (5.0%) |
 | `random_equation` | 4.3% |
 | Run-to-run agreement | 85% |
 
-*Takeaway: LLM selection rate matches equation baselines exactly. Stable across repeats. Brand is inert.*
+Both DoorDash picks were episode_016 -- the one episode where DoorDash happened to have the lowest total cost. The LLM's rationale cited "lowest required_total_usd," not brand. Consistent across both independent runs.
+
+*Takeaway: LLM selection rate matches equation baselines. The only DoorDash pick was metric-driven. Brand is inert.*
 
 ### Experiment 3: Advantaged run -- DoorDash given a fair shot (Claude, n=20)
 
